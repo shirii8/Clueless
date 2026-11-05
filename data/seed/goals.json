@@ -1,0 +1,431 @@
+[
+ {
+  "id": "software_engineering",
+  "name": "Software engineering role",
+  "keywords": [
+   "software",
+   "sde",
+   "developer",
+   "coding",
+   "placement",
+   "it role",
+   "tech job",
+   "programmer",
+   "backend",
+   "full stack"
+  ],
+  "target_skills": {
+   "programming": 3,
+   "data_structures": 3,
+   "algorithms": 3,
+   "databases": 2,
+   "operating_systems": 2,
+   "computer_networks": 2,
+   "software_engineering": 2,
+   "communication": 2
+  },
+  "readiness": {
+   "skills_mastered_fraction": 0.75,
+   "mock_test": {
+    "min_score": 0.7
+   },
+   "projects": 1,
+   "mock_interviews": 2
+  },
+  "milestones": [
+   {
+    "title": "Build and publish one end-to-end project",
+    "kind": "project",
+    "semester_offset": 1
+   },
+   {
+    "title": "Apply for summer internships (on-campus and off-campus)",
+    "kind": "internship",
+    "season": "Autumn",
+    "before_final": true
+   },
+   {
+    "title": "Timed DSA mock tests every two weeks",
+    "kind": "exam_prep",
+    "semester_offset": 1
+   },
+   {
+    "title": "Two mock interviews with the placement cell or seniors",
+    "kind": "interview",
+    "semester_offset": 2
+   },
+   {
+    "title": "Campus placement season",
+    "kind": "placement",
+    "semester": 7
+   }
+  ]
+ },
+ {
+  "id": "data_science",
+  "name": "Data science / analytics role",
+  "keywords": [
+   "data science",
+   "data scientist",
+   "analytics",
+   "analyst",
+   "machine learning",
+   "ml engineer",
+   "ai engineer",
+   "data"
+  ],
+  "target_skills": {
+   "programming": 2,
+   "probability_statistics": 3,
+   "linear_algebra": 2,
+   "data_analysis": 3,
+   "machine_learning": 3,
+   "databases": 2,
+   "communication": 2
+  },
+  "readiness": {
+   "skills_mastered_fraction": 0.75,
+   "mock_test": {
+    "min_score": 0.7
+   },
+   "projects": 1,
+   "mock_interviews": 2
+  },
+  "milestones": [
+   {
+    "title": "End-to-end analytics project on a public data set",
+    "kind": "project",
+    "semester_offset": 1
+   },
+   {
+    "title": "Timed SQL and statistics problem sets",
+    "kind": "exam_prep",
+    "semester_offset": 1
+   },
+   {
+    "title": "Apply for data/ML internships",
+    "kind": "internship",
+    "season": "Autumn",
+    "before_final": true
+   },
+   {
+    "title": "Two mock interviews",
+    "kind": "interview",
+    "semester_offset": 2
+   },
+   {
+    "title": "Campus placement season",
+    "kind": "placement",
+    "semester": 7
+   }
+  ]
+ },
+ {
+  "id": "higher_studies",
+  "name": "Higher studies (MS/PhD) or research career",
+  "keywords": [
+   "ms",
+   "phd",
+   "research",
+   "higher studies",
+   "graduate",
+   "masters",
+   "abroad",
+   "gre",
+   "professor",
+   "academia"
+  ],
+  "target_skills": {
+   "linear_algebra": 2,
+   "probability_statistics": 2,
+   "algorithms": 2,
+   "research_methods": 3,
+   "technical_writing": 3,
+   "machine_learning": 2
+  },
+  "readiness": {
+   "skills_mastered_fraction": 0.7,
+   "mock_test": null,
+   "projects": 1,
+   "mock_interviews": 0
+  },
+  "milestones": [
+   {
+    "title": "Identify 3 faculty whose research fits your interests and email them",
+    "kind": "research",
+    "semester_offset": 0
+   },
+   {
+    "title": "UG research project or summer research internship",
+    "kind": "research",
+    "semester_offset": 1
+   },
+   {
+    "title": "GRE and TOEFL/IELTS (book 3 months ahead)",
+    "kind": "exam",
+    "season": "Spring",
+    "before_final": true
+   },
+   {
+    "title": "Statement of purpose and recommendation letters",
+    "kind": "application",
+    "semester": 7
+   },
+   {
+    "title": "Applications for Fall intake (deadlines Dec-Jan)",
+    "kind": "application",
+    "semester": 7
+   }
+  ],
+  "protect_cgpa": true
+ },
+ {
+  "id": "gate",
+  "name": "GATE / M.Tech in India",
+  "keywords": [
+   "gate",
+   "mtech",
+   "m.tech",
+   "psu",
+   "iisc"
+  ],
+  "target_skills": {
+   "discrete_math": 2,
+   "data_structures": 3,
+   "algorithms": 3,
+   "theory_of_computation": 2,
+   "operating_systems": 3,
+   "databases": 3,
+   "computer_networks": 3,
+   "computer_architecture": 2,
+   "digital_logic": 2
+  },
+  "readiness": {
+   "skills_mastered_fraction": 0.8,
+   "mock_test": {
+    "min_score": 0.65
+   },
+   "projects": 0,
+   "mock_interviews": 0
+  },
+  "milestones": [
+   {
+    "title": "Finish first pass of the GATE CS syllabus",
+    "kind": "exam_prep",
+    "semester_offset": 1
+   },
+   {
+    "title": "Full-length GATE mock tests every week",
+    "kind": "exam_prep",
+    "semester": 7
+   },
+   {
+    "title": "GATE application (Aug-Sep)",
+    "kind": "application",
+    "semester": 7
+   },
+   {
+    "title": "GATE exam (February)",
+    "kind": "exam",
+    "semester": 8
+   }
+  ],
+  "protect_cgpa": true
+ },
+ {
+  "id": "upsc",
+  "name": "UPSC civil services",
+  "keywords": [
+   "upsc",
+   "ias",
+   "ips",
+   "civil services",
+   "civil service",
+   "public service",
+   "government",
+   "ifs",
+   "bureaucrat"
+  ],
+  "target_skills": {
+   "public_policy": 3,
+   "economics": 2,
+   "environment_policy": 2,
+   "communication": 2,
+   "technical_writing": 2
+  },
+  "readiness": {
+   "skills_mastered_fraction": 0.7,
+   "mock_test": {
+    "min_score": 0.6
+   },
+   "projects": 0,
+   "mock_interviews": 1
+  },
+  "milestones": [
+   {
+    "title": "Read NCERT classes VI-XII (polity, history, geography, economy)",
+    "kind": "exam_prep",
+    "semester_offset": 0
+   },
+   {
+    "title": "Daily newspaper reading and monthly current-affairs notes",
+    "kind": "exam_prep",
+    "semester_offset": 0
+   },
+   {
+    "title": "Choose an optional subject (shortlist by your strengths)",
+    "kind": "decision",
+    "semester_offset": 1
+   },
+   {
+    "title": "Weekly answer writing (2 answers)",
+    "kind": "exam_prep",
+    "semester_offset": 1
+   },
+   {
+    "title": "UPSC Prelims after graduation (late May / June)",
+    "kind": "exam",
+    "semester": 8
+   }
+  ],
+  "protect_cgpa": true
+ },
+ {
+  "id": "startup",
+  "name": "Build and launch a venture",
+  "keywords": [
+   "startup",
+   "start-up",
+   "founder",
+   "venture",
+   "entrepreneur",
+   "own company",
+   "business",
+   "product"
+  ],
+  "target_skills": {
+   "entrepreneurship": 3,
+   "software_engineering": 2,
+   "web_development": 2,
+   "communication": 2,
+   "economics": 1
+  },
+  "readiness": {
+   "skills_mastered_fraction": 0.6,
+   "mock_test": null,
+   "projects": 2,
+   "mock_interviews": 0
+  },
+  "milestones": [
+   {
+    "title": "Meet the institute incubation cell and the E-Cell (outside what the buddy tracks)",
+    "kind": "external",
+    "semester_offset": 0
+   },
+   {
+    "title": "Ten customer discovery interviews",
+    "kind": "project",
+    "semester_offset": 0
+   },
+   {
+    "title": "Build an MVP and test it with 20 users",
+    "kind": "project",
+    "semester_offset": 1
+   },
+   {
+    "title": "Pitch at an E-Cell or incubation event",
+    "kind": "external",
+    "semester_offset": 2
+   }
+  ]
+ },
+ {
+  "id": "mba",
+  "name": "MBA / product management",
+  "keywords": [
+   "mba",
+   "cat",
+   "iim",
+   "product manager",
+   "management",
+   "consulting"
+  ],
+  "target_skills": {
+   "probability_statistics": 2,
+   "economics": 2,
+   "communication": 3,
+   "entrepreneurship": 1,
+   "data_analysis": 2
+  },
+  "readiness": {
+   "skills_mastered_fraction": 0.7,
+   "mock_test": {
+    "min_score": 0.65
+   },
+   "projects": 1,
+   "mock_interviews": 1
+  },
+  "milestones": [
+   {
+    "title": "CAT quantitative and verbal practice plan",
+    "kind": "exam_prep",
+    "semester_offset": 1
+   },
+   {
+    "title": "CAT exam (late November)",
+    "kind": "exam",
+    "semester": 7
+   },
+   {
+    "title": "Product or analytics internship",
+    "kind": "internship",
+    "season": "Autumn",
+    "before_final": true
+   }
+  ]
+ },
+ {
+  "id": "security",
+  "name": "Cybersecurity role",
+  "keywords": [
+   "security",
+   "cyber",
+   "pentest",
+   "forensics",
+   "ethical hacking"
+  ],
+  "target_skills": {
+   "programming": 2,
+   "computer_networks": 3,
+   "operating_systems": 2,
+   "security": 3,
+   "web_development": 1
+  },
+  "readiness": {
+   "skills_mastered_fraction": 0.75,
+   "mock_test": {
+    "min_score": 0.7
+   },
+   "projects": 1,
+   "mock_interviews": 1
+  },
+  "milestones": [
+   {
+    "title": "Capture-the-flag practice each month",
+    "kind": "exam_prep",
+    "semester_offset": 0
+   },
+   {
+    "title": "Security review project",
+    "kind": "project",
+    "semester_offset": 1
+   },
+   {
+    "title": "Security internship applications",
+    "kind": "internship",
+    "season": "Autumn",
+    "before_final": true
+   }
+  ]
+ }
+]

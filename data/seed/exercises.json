@@ -1,0 +1,599 @@
+[
+ {
+  "id": "X001",
+  "skill_id": "programming",
+  "kind": "exercise",
+  "title": "Ten small programs",
+  "description": "Solve ten short problems (string reversal, prime sieve, matrix multiply, file word count...) with tests for each.",
+  "est_hours": 6,
+  "level": 1,
+  "rubric": [
+   "All ten programs run",
+   "Each has at least two tests including an edge case",
+   "Code is readable with clear names"
+  ]
+ },
+ {
+  "id": "X002",
+  "skill_id": "programming",
+  "kind": "project",
+  "title": "Command-line expense tracker",
+  "description": "Build a CLI tool that adds, lists and summarises expenses stored in a CSV file, with unit tests.",
+  "est_hours": 10,
+  "level": 2,
+  "rubric": [
+   "Add/list/summary commands work",
+   "Input validation with helpful errors",
+   "At least 8 unit tests",
+   "README with usage"
+  ]
+ },
+ {
+  "id": "X003",
+  "skill_id": "data_structures",
+  "kind": "exercise",
+  "title": "Implement core structures",
+  "description": "Implement a dynamic array, a linked list, a stack, a queue and a binary heap from scratch with tests.",
+  "est_hours": 8,
+  "level": 2,
+  "rubric": [
+   "All five structures pass tests",
+   "Complexities stated for each operation",
+   "Edge cases (empty, single item) handled"
+  ]
+ },
+ {
+  "id": "X004",
+  "skill_id": "data_structures",
+  "kind": "exercise",
+  "title": "Hash map from scratch",
+  "description": "Implement a hash map with chaining and resizing; measure load factor against lookup time.",
+  "est_hours": 6,
+  "level": 3,
+  "rubric": [
+   "Insert/lookup/delete correct",
+   "Resizes at a stated load factor",
+   "Timing plot or table included"
+  ]
+ },
+ {
+  "id": "X005",
+  "skill_id": "algorithms",
+  "kind": "exercise",
+  "title": "30 problem DSA ladder",
+  "description": "Solve 30 graded problems on arrays, two pointers, binary search, recursion, DP and graphs; record time taken per problem.",
+  "est_hours": 20,
+  "level": 2,
+  "rubric": [
+   "At least 25 of 30 accepted",
+   "Complexity written for each",
+   "Time log kept"
+  ]
+ },
+ {
+  "id": "X006",
+  "skill_id": "algorithms",
+  "kind": "mock_test",
+  "title": "Timed DSA mock test (60 min)",
+  "description": "A timed set of algorithm questions from the question bank, taken in the Progress page.",
+  "est_hours": 1,
+  "level": 3,
+  "rubric": [
+   "Score of 70% or higher",
+   "Completed within the time limit"
+  ]
+ },
+ {
+  "id": "X007",
+  "skill_id": "discrete_math",
+  "kind": "exercise",
+  "title": "Proof workbook",
+  "description": "Write ten proofs: induction, contradiction, pigeonhole and counting arguments.",
+  "est_hours": 6,
+  "level": 2,
+  "rubric": [
+   "Each proof states what is assumed and what is shown",
+   "At least 8 of 10 correct",
+   "One proof by strong induction"
+  ]
+ },
+ {
+  "id": "X008",
+  "skill_id": "linear_algebra",
+  "kind": "exercise",
+  "title": "Linear algebra in code",
+  "description": "Implement Gaussian elimination and verify rank-nullity on random matrices; compare with NumPy.",
+  "est_hours": 6,
+  "level": 2,
+  "rubric": [
+   "Elimination solves test systems",
+   "Rank-nullity verified on 5 matrices",
+   "Results match NumPy"
+  ]
+ },
+ {
+  "id": "X009",
+  "skill_id": "linear_algebra",
+  "kind": "exercise",
+  "title": "Eigenvectors and PCA by hand",
+  "description": "Compute eigenvectors of a 3x3 covariance matrix by hand, then reproduce with code and interpret.",
+  "est_hours": 4,
+  "level": 3,
+  "rubric": [
+   "Correct eigenvalues",
+   "Interpretation of the first component"
+  ]
+ },
+ {
+  "id": "X010",
+  "skill_id": "probability_statistics",
+  "kind": "exercise",
+  "title": "Simulate and infer",
+  "description": "Simulate coin, dice and Binomial experiments; build confidence intervals and check their coverage empirically.",
+  "est_hours": 6,
+  "level": 2,
+  "rubric": [
+   "Simulations match theory within error",
+   "95% interval coverage checked over 1000 runs",
+   "Short written interpretation"
+  ]
+ },
+ {
+  "id": "X011",
+  "skill_id": "probability_statistics",
+  "kind": "mock_test",
+  "title": "Timed statistics problem set (45 min)",
+  "description": "Timed problem set on probability, distributions and inference.",
+  "est_hours": 1,
+  "level": 3,
+  "rubric": [
+   "Score of 70% or higher",
+   "Completed within the time limit"
+  ]
+ },
+ {
+  "id": "X012",
+  "skill_id": "databases",
+  "kind": "exercise",
+  "title": "SQL practice set",
+  "description": "Write 25 SQL queries (joins, GROUP BY, subqueries, window functions) on a sample schema.",
+  "est_hours": 6,
+  "level": 2,
+  "rubric": [
+   "At least 22 of 25 correct",
+   "Uses joins and aggregates correctly",
+   "Explains one query plan"
+  ]
+ },
+ {
+  "id": "X013",
+  "skill_id": "databases",
+  "kind": "project",
+  "title": "Design a course-registration database",
+  "description": "Design an ER model and normalised schema for course registration with prerequisites; load sample data and write reports.",
+  "est_hours": 10,
+  "level": 3,
+  "rubric": [
+   "ER diagram",
+   "Schema in 3NF with justification",
+   "Five report queries",
+   "Constraints enforce prerequisites"
+  ]
+ },
+ {
+  "id": "X014",
+  "skill_id": "operating_systems",
+  "kind": "exercise",
+  "title": "Process and thread lab",
+  "description": "Write programs using fork/exec, pipes and threads with a mutex-protected counter; demonstrate a race condition and fix it.",
+  "est_hours": 6,
+  "level": 2,
+  "rubric": [
+   "Race condition demonstrated",
+   "Mutex fix verified",
+   "Pipe-based IPC works"
+  ]
+ },
+ {
+  "id": "X015",
+  "skill_id": "operating_systems",
+  "kind": "exercise",
+  "title": "Scheduler simulator",
+  "description": "Simulate FCFS, SJF and round-robin scheduling and compare average waiting times.",
+  "est_hours": 5,
+  "level": 3,
+  "rubric": [
+   "Three policies implemented",
+   "Comparison table with explanation"
+  ]
+ },
+ {
+  "id": "X016",
+  "skill_id": "computer_networks",
+  "kind": "exercise",
+  "title": "Socket chat",
+  "description": "Build a TCP client-server chat with multiple clients; capture and annotate the traffic in Wireshark.",
+  "est_hours": 6,
+  "level": 2,
+  "rubric": [
+   "Multiple clients supported",
+   "Annotated packet capture of the handshake"
+  ]
+ },
+ {
+  "id": "X017",
+  "skill_id": "computer_architecture",
+  "kind": "exercise",
+  "title": "Cache simulator",
+  "description": "Simulate a direct-mapped and a 2-way cache on a memory trace and report hit rates.",
+  "est_hours": 6,
+  "level": 3,
+  "rubric": [
+   "Both cache types simulated",
+   "Hit rates reported and explained"
+  ]
+ },
+ {
+  "id": "X018",
+  "skill_id": "theory_of_computation",
+  "kind": "exercise",
+  "title": "Automata construction set",
+  "description": "Construct DFAs, NFAs and CFGs for ten given languages; prove one language non-regular.",
+  "est_hours": 5,
+  "level": 2,
+  "rubric": [
+   "Eight of ten constructions correct",
+   "Valid pumping-lemma proof"
+  ]
+ },
+ {
+  "id": "X019",
+  "skill_id": "compilers",
+  "kind": "project",
+  "title": "Expression language interpreter",
+  "description": "Write a lexer, recursive-descent parser and evaluator for an arithmetic language with variables.",
+  "est_hours": 10,
+  "level": 3,
+  "rubric": [
+   "Lexer and parser handle precedence",
+   "Helpful syntax errors",
+   "Test suite of 20 programs"
+  ]
+ },
+ {
+  "id": "X020",
+  "skill_id": "software_engineering",
+  "kind": "project",
+  "title": "Team-style project with CI",
+  "description": "Take a small app through requirements, design doc, tests and a CI pipeline using git branches and pull requests.",
+  "est_hours": 12,
+  "level": 2,
+  "rubric": [
+   "Written requirements with acceptance criteria",
+   "At least 70% test coverage",
+   "CI runs tests on every push",
+   "Pull-request history"
+  ]
+ },
+ {
+  "id": "X021",
+  "skill_id": "web_development",
+  "kind": "project",
+  "title": "Full-stack app",
+  "description": "Build a small full-stack web app (e.g. a study-group finder) with authentication, a database and input validation.",
+  "est_hours": 14,
+  "level": 2,
+  "rubric": [
+   "CRUD features work",
+   "Server-side validation",
+   "Parameterised queries",
+   "Deployed or runnable with one command"
+  ]
+ },
+ {
+  "id": "X022",
+  "skill_id": "machine_learning",
+  "kind": "project",
+  "title": "End-to-end ML project",
+  "description": "Pick an open data set, build a baseline and two models, evaluate with cross-validation and write up findings.",
+  "est_hours": 14,
+  "level": 3,
+  "rubric": [
+   "Clear problem statement and metric",
+   "Baseline plus two models",
+   "Cross-validated results with variance",
+   "Discussion of errors and limits"
+  ]
+ },
+ {
+  "id": "X023",
+  "skill_id": "machine_learning",
+  "kind": "exercise",
+  "title": "Implement linear and logistic regression",
+  "description": "Implement gradient descent for linear and logistic regression from scratch and compare with scikit-learn.",
+  "est_hours": 6,
+  "level": 2,
+  "rubric": [
+   "Both models converge",
+   "Results match library within tolerance"
+  ]
+ },
+ {
+  "id": "X024",
+  "skill_id": "data_analysis",
+  "kind": "project",
+  "title": "End-to-end analytics case study",
+  "description": "Clean, explore and visualise a public data set (e.g. data.gov.in), answer three business questions with SQL and Python, and present findings.",
+  "est_hours": 12,
+  "level": 2,
+  "rubric": [
+   "Data cleaning documented",
+   "Three questions answered with evidence",
+   "Five clear charts",
+   "Five-minute presentation"
+  ]
+ },
+ {
+  "id": "X025",
+  "skill_id": "data_analysis",
+  "kind": "case_study",
+  "title": "Analyse an A/B test",
+  "description": "Given A/B test results, compute the effect, a confidence interval and recommend a decision.",
+  "est_hours": 4,
+  "level": 2,
+  "rubric": [
+   "Correct effect size",
+   "Correct interval",
+   "Recommendation states assumptions"
+  ]
+ },
+ {
+  "id": "X026",
+  "skill_id": "artificial_intelligence",
+  "kind": "exercise",
+  "title": "Search agents",
+  "description": "Implement BFS, uniform-cost and A* on a grid world and compare nodes expanded.",
+  "est_hours": 6,
+  "level": 2,
+  "rubric": [
+   "Three searches implemented",
+   "A* uses an admissible heuristic",
+   "Comparison table"
+  ]
+ },
+ {
+  "id": "X027",
+  "skill_id": "security",
+  "kind": "case_study",
+  "title": "Security review of a web app",
+  "description": "Review a deliberately vulnerable app for OWASP Top-10 issues and write a remediation report.",
+  "est_hours": 8,
+  "level": 3,
+  "rubric": [
+   "At least five issues found",
+   "Each with severity and fix",
+   "Report is reproducible"
+  ]
+ },
+ {
+  "id": "X028",
+  "skill_id": "cloud_computing",
+  "kind": "exercise",
+  "title": "Containerise and deploy",
+  "description": "Containerise a small service with Docker, add a health check and run it with docker compose.",
+  "est_hours": 5,
+  "level": 2,
+  "rubric": [
+   "Image builds reproducibly",
+   "Health check passes",
+   "Compose file documented"
+  ]
+ },
+ {
+  "id": "X029",
+  "skill_id": "embedded_iot",
+  "kind": "project",
+  "title": "Sensor dashboard prototype",
+  "description": "Read a sensor (or simulated sensor), publish over MQTT and show live values on a dashboard.",
+  "est_hours": 10,
+  "level": 2,
+  "rubric": [
+   "Sensor readings published",
+   "Dashboard updates live",
+   "Failure handling for lost connection"
+  ]
+ },
+ {
+  "id": "X030",
+  "skill_id": "research_methods",
+  "kind": "exercise",
+  "title": "Three-pass paper reading",
+  "description": "Read three recent papers in your area using the three-pass method and write a one-page critique of each.",
+  "est_hours": 8,
+  "level": 2,
+  "rubric": [
+   "Three critiques",
+   "Each identifies contribution, method and a weakness"
+  ]
+ },
+ {
+  "id": "X031",
+  "skill_id": "research_methods",
+  "kind": "project",
+  "title": "Mini research replication",
+  "description": "Replicate one result from a published paper, report differences and possible reasons.",
+  "est_hours": 20,
+  "level": 3,
+  "rubric": [
+   "Result replicated or discrepancy explained",
+   "Reproducible code",
+   "Four-page report"
+  ]
+ },
+ {
+  "id": "X032",
+  "skill_id": "technical_writing",
+  "kind": "exercise",
+  "title": "Essay writing practice",
+  "description": "Write a 1000-word essay on a social or technical issue every fortnight; revise once using a checklist (thesis, structure, evidence, clarity).",
+  "est_hours": 5,
+  "level": 1,
+  "rubric": [
+   "Clear thesis in the first paragraph",
+   "Each paragraph supports the thesis with evidence",
+   "Revised draft addresses checklist feedback"
+  ]
+ },
+ {
+  "id": "X033",
+  "skill_id": "technical_writing",
+  "kind": "exercise",
+  "title": "Statement of purpose draft",
+  "description": "Write and revise a statement of purpose (two drafts) using feedback from a senior or faculty member.",
+  "est_hours": 6,
+  "level": 2,
+  "rubric": [
+   "Two drafts with tracked revisions",
+   "Specific research interests and fit",
+   "Under 1000 words"
+  ]
+ },
+ {
+  "id": "X034",
+  "skill_id": "communication",
+  "kind": "mock_interview",
+  "title": "Mock interview",
+  "description": "A 30-minute mock interview (technical or HR) with a peer, senior or the placement cell, scored on a shared rubric.",
+  "est_hours": 1,
+  "level": 2,
+  "rubric": [
+   "Score of 60% or higher on the rubric",
+   "Feedback recorded"
+  ]
+ },
+ {
+  "id": "X035",
+  "skill_id": "communication",
+  "kind": "exercise",
+  "title": "Five-minute technical talk",
+  "description": "Prepare and record a five-minute talk explaining one project to a non-specialist audience.",
+  "est_hours": 4,
+  "level": 1,
+  "rubric": [
+   "Clear problem and outcome",
+   "Within five minutes",
+   "Peer feedback recorded"
+  ]
+ },
+ {
+  "id": "X036",
+  "skill_id": "economics",
+  "kind": "case_study",
+  "title": "Union Budget analysis",
+  "description": "Summarise the latest Union Budget's fiscal deficit, major allocations and one policy trade-off in 800 words.",
+  "est_hours": 6,
+  "level": 2,
+  "rubric": [
+   "Key figures cited from the official document",
+   "One trade-off analysed",
+   "Under 800 words"
+  ]
+ },
+ {
+  "id": "X037",
+  "skill_id": "public_policy",
+  "kind": "exercise",
+  "title": "Weekly answer writing",
+  "description": "Write two 250-word answers per week on polity and governance questions and self-review against a model answer.",
+  "est_hours": 3,
+  "level": 2,
+  "rubric": [
+   "Two answers per week",
+   "Structure: intro, body, conclusion",
+   "Self-review notes"
+  ]
+ },
+ {
+  "id": "X038",
+  "skill_id": "public_policy",
+  "kind": "case_study",
+  "title": "Policy brief",
+  "description": "Write a two-page policy brief on a local issue (e.g. urban flooding in Bhubaneswar) with options and a recommendation.",
+  "est_hours": 8,
+  "level": 3,
+  "rubric": [
+   "Problem framed with evidence",
+   "Three options compared",
+   "Clear recommendation"
+  ]
+ },
+ {
+  "id": "X039",
+  "skill_id": "public_policy",
+  "kind": "mock_test",
+  "title": "UPSC prelims-style mock (60 min)",
+  "description": "Timed multiple-choice mock on polity, economy and environment from the question bank.",
+  "est_hours": 1,
+  "level": 3,
+  "rubric": [
+   "Score of 60% or higher",
+   "Completed within the time limit"
+  ]
+ },
+ {
+  "id": "X040",
+  "skill_id": "entrepreneurship",
+  "kind": "exercise",
+  "title": "Ten customer interviews",
+  "description": "Run ten problem-discovery interviews and summarise patterns in a one-page memo.",
+  "est_hours": 8,
+  "level": 1,
+  "rubric": [
+   "Ten interviews logged",
+   "Patterns supported by quotes",
+   "Decision: pursue, pivot or drop"
+  ]
+ },
+ {
+  "id": "X041",
+  "skill_id": "entrepreneurship",
+  "kind": "project",
+  "title": "Build and test an MVP",
+  "description": "Build a minimum viable product for the validated problem and measure one-week retention with at least 20 users.",
+  "est_hours": 20,
+  "level": 2,
+  "rubric": [
+   "MVP live",
+   "At least 20 users",
+   "Retention measured",
+   "Lessons memo"
+  ]
+ },
+ {
+  "id": "X042",
+  "skill_id": "entrepreneurship",
+  "kind": "case_study",
+  "title": "Pitch deck and unit economics",
+  "description": "Write a ten-slide pitch with market size, CAC and LTV estimates; present to the incubation cell.",
+  "est_hours": 6,
+  "level": 3,
+  "rubric": [
+   "Ten slides",
+   "CAC and LTV estimated with assumptions",
+   "Presented and feedback noted"
+  ]
+ },
+ {
+  "id": "X043",
+  "skill_id": "environment_policy",
+  "kind": "case_study",
+  "title": "Local EIA review",
+  "description": "Read a published environmental impact assessment summary for a project in Odisha and critique its mitigation plan.",
+  "est_hours": 5,
+  "level": 2,
+  "rubric": [
+   "Summary of impacts",
+   "Critique of two mitigation measures"
+  ]
+ }
+]

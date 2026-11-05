@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --page: 246 247 249;
+  --surface: 255 255 255;
+  --subtle: 238 241 245;
+  --line: 222 226 232;
+  --ink: 22 27 34;
+  --muted: 88 98 112;
+  --brand: 15 98 116;
+  --brand-strong: 9 72 86;
+  --brand-soft: 226 242 245;
+  --good: 22 120 72;
+  --good-soft: 228 245 235;
+  --warn: 150 92 10;
+  --warn-soft: 253 243 226;
+  --bad: 180 35 45;
+  --bad-soft: 252 233 234;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --page: 15 18 23;
+    --surface: 24 28 35;
+    --subtle: 34 40 49;
+    --line: 50 58 70;
+    --ink: 232 236 241;
+    --muted: 160 170 184;
+    --brand: 92 196 214;
+    --brand-strong: 130 214 228;
+    --brand-soft: 22 50 58;
+    --good: 98 205 145;
+    --good-soft: 20 48 34;
+    --warn: 236 182 90;
+    --warn-soft: 54 40 16;
+    --bad: 244 120 128;
+    --bad-soft: 58 24 28;
+  }
+}
+
+html { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+body { margin: 0; background: rgb(var(--page)); color: rgb(var(--ink)); }
+* { box-sizing: border-box; }
+a { color: inherit; }
+button, input, select, textarea { font: inherit; }
+input, select, textarea { background: rgb(var(--surface)); color: rgb(var(--ink)); border-color: rgb(var(--line)); }
+:focus-visible { outline: 2px solid rgb(var(--brand)); outline-offset: 2px; }

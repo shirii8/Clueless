@@ -1,0 +1,5667 @@
+[
+ {
+  "id": "S1024",
+  "name": "Persona: ChemE to software (problem-statement example)",
+  "persona": "non-CS to software",
+  "programme": "B.Tech Chemical Engineering",
+  "year": 3,
+  "current_semester": 5,
+  "cgpa": 7.8,
+  "goal_text": "Software engineering role after graduation",
+  "goal_struct": {
+   "goal": "Software engineering role",
+   "goal_id": "software_engineering"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "B"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "machine_learning"
+  ],
+  "constraints": {
+   "elective_slots": 2,
+   "credit_headroom": 6,
+   "weekly_hours": 8,
+   "not_together": [
+    [
+     "CS2L001",
+     "CS2L004"
+    ]
+   ]
+  },
+  "preferences": {
+   "learning_style": "short videos and hands-on coding problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "P-CHE-SWE",
+  "name": "Persona: 2nd-year ChemE aiming for software (Appendix A)",
+  "persona": "non-CS to software",
+  "programme": "B.Tech Chemical Engineering",
+  "year": 2,
+  "current_semester": 3,
+  "cgpa": 8.1,
+  "goal_text": "I want a software / IT role after graduation even though I am in Chemical Engineering.",
+  "goal_struct": {
+   "goal": "Software / IT role",
+   "goal_id": "software_engineering"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "A"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "B"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "web_development"
+  ],
+  "constraints": {
+   "elective_slots": 0,
+   "credit_headroom": 6,
+   "weekly_hours": 12,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "practice problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "P-EE-MS",
+  "name": "Persona: EE student targeting an MS/PhD (Appendix A)",
+  "persona": "higher studies",
+  "programme": "B.Tech Electrical Engineering",
+  "year": 3,
+  "current_semester": 5,
+  "cgpa": 8.7,
+  "goal_text": "I want to do a PhD in machine learning abroad.",
+  "goal_struct": {
+   "goal": "Higher studies: PhD in ML",
+   "goal_id": "higher_studies"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "A"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "B"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "A"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "machine_learning"
+  ],
+  "constraints": {
+   "elective_slots": 1,
+   "credit_headroom": 8,
+   "weekly_hours": 14,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "reading textbooks and notes",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "P-ME-UPSC",
+  "name": "Persona: Mechanical student preparing for UPSC (Appendix A)",
+  "persona": "civil services",
+  "programme": "B.Tech Mechanical Engineering",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 7.2,
+  "goal_text": "I am preparing for the UPSC civil services exam (IAS).",
+  "goal_struct": {
+   "goal": "UPSC civil services",
+   "goal_id": "upsc"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "B"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "public_policy"
+  ],
+  "constraints": {
+   "credit_headroom": 4,
+   "weekly_hours": 12,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "reading textbooks and notes",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "P-CSE-STARTUP",
+  "name": "Persona: CSE student building a startup (Appendix A)",
+  "persona": "startup",
+  "programme": "B.Tech Computer Science and Engineering",
+  "year": 2,
+  "current_semester": 3,
+  "cgpa": 8.0,
+  "goal_text": "I want to build and launch a startup.",
+  "goal_struct": {
+   "goal": "Build and launch a venture",
+   "goal_id": "startup"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "B"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "entrepreneurship"
+  ],
+  "constraints": {
+   "credit_headroom": 4,
+   "weekly_hours": 10,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "projects",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "P-CE-DS-MISMATCH",
+  "name": "Edge case: data science goal, weak linear algebra evidence",
+  "persona": "interest-evidence mismatch",
+  "programme": "B.Tech Civil Engineering",
+  "year": 3,
+  "current_semester": 5,
+  "cgpa": 6.9,
+  "goal_text": "I want a data science role, but maths has been difficult for me.",
+  "goal_struct": {
+   "goal": "Data science role",
+   "goal_id": "data_science"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "C"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "B"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "D"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "machine_learning",
+   "data_analysis"
+  ],
+  "constraints": {
+   "credit_headroom": 4,
+   "weekly_hours": 9,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "videos",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "P-CH-MINOR-CUTOFF",
+  "name": "Edge case: wants a CSE Minor at CGPA 7.49",
+  "persona": "eligibility cut-off",
+  "programme": "B.Tech Chemical Engineering",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 7.49,
+  "goal_text": "I want a CSE minor and a data analytics job.",
+  "goal_struct": {
+   "goal": "Data analytics with a CSE minor",
+   "goal_id": "data_science"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "B"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "data_analysis"
+  ],
+  "constraints": {
+   "credit_headroom": 8,
+   "weekly_hours": 14,
+   "minor": true,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "practice problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "P-CSE-BACKLOG",
+  "name": "Edge case: CSE student with backlogs aiming for GATE",
+  "persona": "backlogs",
+  "programme": "B.Tech Computer Science and Engineering",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 6.4,
+  "goal_text": "I want to clear GATE and do an M.Tech.",
+  "goal_struct": {
+   "goal": "GATE / M.Tech",
+   "goal_id": "gate"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "B"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EC2L001",
+    "grade": "D"
+   },
+   {
+    "code": "ID2L002",
+    "grade": "C"
+   },
+   {
+    "code": "CS2L001",
+    "grade": "D"
+   },
+   {
+    "code": "CS2L004",
+    "grade": "D"
+   },
+   {
+    "code": "EC2L002",
+    "grade": "D"
+   },
+   {
+    "code": "EC2P001",
+    "grade": "D"
+   },
+   {
+    "code": "EC2P002",
+    "grade": "C"
+   },
+   {
+    "code": "CS2P002",
+    "grade": "C"
+   },
+   {
+    "code": "ID2L003",
+    "grade": "C"
+   },
+   {
+    "code": "EC2L004",
+    "grade": "C"
+   },
+   {
+    "code": "CS2P001",
+    "grade": "C"
+   },
+   {
+    "code": "EC2P004",
+    "grade": "C"
+   },
+   {
+    "code": "CS2S001",
+    "grade": "P"
+   },
+   {
+    "code": "CS3L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS3L002",
+    "grade": "C"
+   },
+   {
+    "code": "CS3L005",
+    "grade": "C"
+   },
+   {
+    "code": "CS3P001",
+    "grade": "P"
+   },
+   {
+    "code": "CS3P003",
+    "grade": "P"
+   }
+  ],
+  "backlogs": [
+   "CS2L002",
+   "MA2L006"
+  ],
+  "interests": [
+   "operating_systems"
+  ],
+  "constraints": {
+   "credit_headroom": 0,
+   "weekly_hours": 10,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "practice problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "P-CSE-GOALCHANGE",
+  "name": "Edge case: switching from placements to higher studies",
+  "persona": "changing goal",
+  "programme": "B.Tech Computer Science and Engineering",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 8.9,
+  "goal_text": "I was preparing for placements but now I want to do an MS in AI abroad.",
+  "goal_struct": {
+   "goal": "Higher studies: MS in AI",
+   "goal_id": "higher_studies",
+   "previous_goal_id": "software_engineering"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "B"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EC2L001",
+    "grade": "B"
+   },
+   {
+    "code": "ID2L002",
+    "grade": "B"
+   },
+   {
+    "code": "CS2L001",
+    "grade": "A"
+   },
+   {
+    "code": "CS2L004",
+    "grade": "A"
+   },
+   {
+    "code": "EC2L002",
+    "grade": "A"
+   },
+   {
+    "code": "EC2P001",
+    "grade": "B"
+   },
+   {
+    "code": "EC2P002",
+    "grade": "A"
+   },
+   {
+    "code": "CS2P002",
+    "grade": "A"
+   },
+   {
+    "code": "ID2L003",
+    "grade": "B"
+   },
+   {
+    "code": "MA2L006",
+    "grade": "EX"
+   },
+   {
+    "code": "CS2L002",
+    "grade": "A"
+   },
+   {
+    "code": "EC2L004",
+    "grade": "EX"
+   },
+   {
+    "code": "CS2P001",
+    "grade": "B"
+   },
+   {
+    "code": "EC2P004",
+    "grade": "B"
+   },
+   {
+    "code": "CS2S001",
+    "grade": "A"
+   },
+   {
+    "code": "CS3L001",
+    "grade": "A"
+   },
+   {
+    "code": "CS3L002",
+    "grade": "A"
+   },
+   {
+    "code": "CS3L005",
+    "grade": "A"
+   },
+   {
+    "code": "CS3P001",
+    "grade": "B"
+   },
+   {
+    "code": "CS3P003",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "artificial_intelligence",
+   "machine_learning"
+  ],
+  "constraints": {
+   "credit_headroom": 6,
+   "weekly_hours": 12,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "reading textbooks and notes",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "P-CSE-FINAL-SWE",
+  "name": "Persona: final-year CSE student checking placement readiness",
+  "persona": "placement readiness",
+  "programme": "B.Tech Computer Science and Engineering",
+  "year": 4,
+  "current_semester": 7,
+  "cgpa": 8.3,
+  "goal_text": "I want to be ready for software placements this semester.",
+  "goal_struct": {
+   "goal": "Software engineering role",
+   "goal_id": "software_engineering"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "B"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EC2L001",
+    "grade": "B"
+   },
+   {
+    "code": "ID2L002",
+    "grade": "A"
+   },
+   {
+    "code": "CS2L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS2L004",
+    "grade": "A"
+   },
+   {
+    "code": "EC2L002",
+    "grade": "A"
+   },
+   {
+    "code": "EC2P001",
+    "grade": "C"
+   },
+   {
+    "code": "EC2P002",
+    "grade": "B"
+   },
+   {
+    "code": "CS2P002",
+    "grade": "A"
+   },
+   {
+    "code": "ID2L003",
+    "grade": "D"
+   },
+   {
+    "code": "MA2L006",
+    "grade": "B"
+   },
+   {
+    "code": "CS2L002",
+    "grade": "B"
+   },
+   {
+    "code": "EC2L004",
+    "grade": "B"
+   },
+   {
+    "code": "CS2P001",
+    "grade": "A"
+   },
+   {
+    "code": "EC2P004",
+    "grade": "B"
+   },
+   {
+    "code": "CS2S001",
+    "grade": "C"
+   },
+   {
+    "code": "CS3L001",
+    "grade": "A"
+   },
+   {
+    "code": "CS3L002",
+    "grade": "A"
+   },
+   {
+    "code": "CS3L005",
+    "grade": "A"
+   },
+   {
+    "code": "CS3P001",
+    "grade": "EX"
+   },
+   {
+    "code": "CS3P003",
+    "grade": "A"
+   },
+   {
+    "code": "CS3L003",
+    "grade": "B"
+   },
+   {
+    "code": "CS3L006",
+    "grade": "C"
+   },
+   {
+    "code": "CS3P002",
+    "grade": "A"
+   },
+   {
+    "code": "CS3P004",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "web_development"
+  ],
+  "constraints": {
+   "credit_headroom": 3,
+   "weekly_hours": 10,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "practice problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-001",
+  "name": "Synthetic profile 1",
+  "persona": "synthetic:startup",
+  "programme": "B.Tech Computer Science and Engineering",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 8.98,
+  "goal_text": "I want to build and launch my own startup.",
+  "goal_struct": {
+   "goal": "I want to build and launch my own startup",
+   "goal_id": "startup"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "A"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "A"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "B"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "A"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "EC2L001",
+    "grade": "EX"
+   },
+   {
+    "code": "ID2L002",
+    "grade": "A"
+   },
+   {
+    "code": "CS2L001",
+    "grade": "EX"
+   },
+   {
+    "code": "CS2L004",
+    "grade": "D"
+   },
+   {
+    "code": "EC2L002",
+    "grade": "A"
+   },
+   {
+    "code": "EC2P001",
+    "grade": "A"
+   },
+   {
+    "code": "EC2P002",
+    "grade": "B"
+   },
+   {
+    "code": "CS2P002",
+    "grade": "EX"
+   },
+   {
+    "code": "ID2L003",
+    "grade": "A"
+   },
+   {
+    "code": "MA2L006",
+    "grade": "EX"
+   },
+   {
+    "code": "CS2L002",
+    "grade": "EX"
+   },
+   {
+    "code": "EC2L004",
+    "grade": "B"
+   },
+   {
+    "code": "CS2P001",
+    "grade": "A"
+   },
+   {
+    "code": "EC2P004",
+    "grade": "A"
+   },
+   {
+    "code": "CS2S001",
+    "grade": "A"
+   },
+   {
+    "code": "CS3L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS3L002",
+    "grade": "B"
+   },
+   {
+    "code": "CS3L005",
+    "grade": "A"
+   },
+   {
+    "code": "CS3P001",
+    "grade": "B"
+   },
+   {
+    "code": "CS3P003",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "software_engineering",
+   "web_development"
+  ],
+  "constraints": {
+   "credit_headroom": 6,
+   "weekly_hours": 12,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "short videos and hands-on coding problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-002",
+  "name": "Synthetic profile 2",
+  "persona": "synthetic:software_engineering",
+  "programme": "B.Tech Civil Engineering",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 7.57,
+  "goal_text": "I want a software engineering job after graduation.",
+  "goal_struct": {
+   "goal": "I want a software engineering job after graduation",
+   "goal_id": "software_engineering"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "C"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "P"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "A"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "D"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "C"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "C"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "D"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "C"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "algorithms",
+   "machine_learning"
+  ],
+  "constraints": {
+   "credit_headroom": 0,
+   "weekly_hours": 20,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "projects",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-003",
+  "name": "Synthetic profile 3",
+  "persona": "synthetic:higher_studies",
+  "programme": "B.Tech Mechanical Engineering",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 5.88,
+  "goal_text": "I plan to do an MS or PhD abroad and work in research.",
+  "goal_struct": {
+   "goal": "I plan to do an MS or PhD abroad and work in research",
+   "goal_id": "higher_studies"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "C"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "D"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "D"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "D"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "P"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "C"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "C"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "P"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "C"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "research_methods",
+   "machine_learning"
+  ],
+  "constraints": {
+   "credit_headroom": 4,
+   "weekly_hours": 12,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "reading textbooks and notes",
+   "exclude_courses": [
+    "CS3L007"
+   ]
+  }
+ },
+ {
+  "id": "SYN-004",
+  "name": "Synthetic profile 4",
+  "persona": "synthetic:gate",
+  "programme": "B.Tech Civil Engineering",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 7.18,
+  "goal_text": "I want to crack GATE and join an M.Tech at an IIT or IISc.",
+  "goal_struct": {
+   "goal": "I want to crack GATE and join an M.Tech at an IIT or IISc",
+   "goal_id": "gate"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "C"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "C"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "D"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "P"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "P"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "C"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "databases",
+   "operating_systems"
+  ],
+  "constraints": {
+   "credit_headroom": 3,
+   "weekly_hours": 15,
+   "not_together": [],
+   "elective_slots": 1
+  },
+  "preferences": {
+   "learning_style": "reading textbooks and notes",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-005",
+  "name": "Synthetic profile 5",
+  "persona": "synthetic:software_engineering",
+  "programme": "B.Tech Computer Science and Engineering",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 7.2,
+  "goal_text": "I want a software engineering job after graduation.",
+  "goal_struct": {
+   "goal": "I want a software engineering job after graduation",
+   "goal_id": "software_engineering"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "C"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "A"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "C"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "C"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "D"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "D"
+   },
+   {
+    "code": "EC2L001",
+    "grade": "A"
+   },
+   {
+    "code": "ID2L002",
+    "grade": "B"
+   },
+   {
+    "code": "CS2L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS2L004",
+    "grade": "D"
+   },
+   {
+    "code": "EC2L002",
+    "grade": "C"
+   },
+   {
+    "code": "EC2P001",
+    "grade": "C"
+   },
+   {
+    "code": "EC2P002",
+    "grade": "C"
+   },
+   {
+    "code": "CS2P002",
+    "grade": "C"
+   },
+   {
+    "code": "ID2L003",
+    "grade": "A"
+   },
+   {
+    "code": "MA2L006",
+    "grade": "D"
+   },
+   {
+    "code": "CS2L002",
+    "grade": "B"
+   },
+   {
+    "code": "EC2L004",
+    "grade": "B"
+   },
+   {
+    "code": "CS2P001",
+    "grade": "C"
+   },
+   {
+    "code": "EC2P004",
+    "grade": "B"
+   },
+   {
+    "code": "CS2S001",
+    "grade": "P"
+   },
+   {
+    "code": "CS3L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS3L002",
+    "grade": "C"
+   },
+   {
+    "code": "CS3L005",
+    "grade": "B"
+   },
+   {
+    "code": "CS3P001",
+    "grade": "B"
+   },
+   {
+    "code": "CS3P003",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "algorithms"
+  ],
+  "constraints": {
+   "credit_headroom": 3,
+   "weekly_hours": 12,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "practice problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-006",
+  "name": "Synthetic profile 6",
+  "persona": "synthetic:gate",
+  "programme": "B.Tech Computer Science and Engineering",
+  "year": 2,
+  "current_semester": 3,
+  "cgpa": 7.48,
+  "goal_text": "I want to crack GATE and join an M.Tech at an IIT or IISc.",
+  "goal_struct": {
+   "goal": "I want to crack GATE and join an M.Tech at an IIT or IISc",
+   "goal_id": "gate"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "C"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "C"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "C"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "D"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "C"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "C"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "C"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "algorithms"
+  ],
+  "constraints": {
+   "credit_headroom": 3,
+   "weekly_hours": 10,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "projects",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-007",
+  "name": "Synthetic profile 7",
+  "persona": "synthetic:data_science",
+  "programme": "B.Tech Electrical Engineering",
+  "year": 2,
+  "current_semester": 3,
+  "cgpa": 6.05,
+  "goal_text": "I want to become a data scientist or data analyst.",
+  "goal_struct": {
+   "goal": "I want to become a data scientist or data analyst",
+   "goal_id": "data_science"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "D"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "D"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "C"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "D"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "D"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "P"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "C"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "D"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "D"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "data_analysis",
+   "machine_learning"
+  ],
+  "constraints": {
+   "credit_headroom": 0,
+   "weekly_hours": 6,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "videos",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-008",
+  "name": "Synthetic profile 8",
+  "persona": "synthetic:mba",
+  "programme": "B.Tech Electrical Engineering",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 8.69,
+  "goal_text": "I want to do an MBA and move into product management.",
+  "goal_struct": {
+   "goal": "I want to do an MBA and move into product management",
+   "goal_id": "mba"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "A"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "A"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "A"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "A"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "EX"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "A"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "A"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "EX"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "economics",
+   "communication"
+  ],
+  "constraints": {
+   "credit_headroom": 4,
+   "weekly_hours": 20,
+   "not_together": [],
+   "elective_slots": 1
+  },
+  "preferences": {
+   "learning_style": "videos",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-009",
+  "name": "Synthetic profile 9",
+  "persona": "synthetic:data_science",
+  "programme": "B.Tech Electrical Engineering",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 6.13,
+  "goal_text": "I want to become a data scientist or data analyst.",
+  "goal_struct": {
+   "goal": "I want to become a data scientist or data analyst",
+   "goal_id": "data_science",
+   "previous_goal_id": "gate"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "C"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "P"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "P"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "P"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "P"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "D"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "P"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "P"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "D"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "machine_learning"
+  ],
+  "constraints": {
+   "credit_headroom": 6,
+   "weekly_hours": 12,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "short videos and hands-on coding problems",
+   "exclude_courses": [
+    "CS3L007"
+   ]
+  }
+ },
+ {
+  "id": "SYN-010",
+  "name": "Synthetic profile 10",
+  "persona": "synthetic:data_science",
+  "programme": "B.Tech Electronics and Communication Engineering",
+  "year": 3,
+  "current_semester": 5,
+  "cgpa": 9.22,
+  "goal_text": "I want to become a data scientist or data analyst.",
+  "goal_struct": {
+   "goal": "I want to become a data scientist or data analyst",
+   "goal_id": "data_science"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "A"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "B"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "EX"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "A"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "probability_statistics",
+   "data_analysis"
+  ],
+  "constraints": {
+   "credit_headroom": 8,
+   "weekly_hours": 15,
+   "not_together": [],
+   "elective_slots": 1
+  },
+  "preferences": {
+   "learning_style": "short videos and hands-on coding problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-011",
+  "name": "Synthetic profile 11",
+  "persona": "synthetic:software_engineering",
+  "programme": "B.Tech Civil Engineering",
+  "year": 2,
+  "current_semester": 3,
+  "cgpa": 6.52,
+  "goal_text": "I want a software engineering job after graduation.",
+  "goal_struct": {
+   "goal": "I want a software engineering job after graduation",
+   "goal_id": "software_engineering"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "D"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "D"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "C"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "D"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "D"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "D"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "D"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "P"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "web_development",
+   "machine_learning"
+  ],
+  "constraints": {
+   "credit_headroom": 0,
+   "weekly_hours": 20,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "videos",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-012",
+  "name": "Synthetic profile 12",
+  "persona": "synthetic:software_engineering",
+  "programme": "B.Tech Electrical Engineering",
+  "year": 1,
+  "current_semester": 2,
+  "cgpa": 8.72,
+  "goal_text": "I want a software engineering job after graduation.",
+  "goal_struct": {
+   "goal": "I want a software engineering job after graduation",
+   "goal_id": "software_engineering"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "A"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "A"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "algorithms"
+  ],
+  "constraints": {
+   "credit_headroom": 4,
+   "weekly_hours": 12,
+   "not_together": [],
+   "elective_slots": 1
+  },
+  "preferences": {
+   "learning_style": "practice problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-013",
+  "name": "Synthetic profile 13",
+  "persona": "synthetic:software_engineering",
+  "programme": "B.Tech Chemical Engineering",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 7.09,
+  "goal_text": "I want a software engineering job after graduation.",
+  "goal_struct": {
+   "goal": "I want a software engineering job after graduation",
+   "goal_id": "software_engineering"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "C"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "C"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "C"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "A"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "C"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "C"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "web_development",
+   "algorithms"
+  ],
+  "constraints": {
+   "credit_headroom": 6,
+   "weekly_hours": 12,
+   "not_together": [
+    [
+     "ID6L004",
+     "CS4L012"
+    ]
+   ],
+   "elective_slots": 2
+  },
+  "preferences": {
+   "learning_style": "reading textbooks and notes",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-014",
+  "name": "Synthetic profile 14",
+  "persona": "synthetic:software_engineering",
+  "programme": "B.Tech Metallurgical and Materials Engineering",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 6.55,
+  "goal_text": "I want a software engineering job after graduation.",
+  "goal_struct": {
+   "goal": "I want a software engineering job after graduation",
+   "goal_id": "software_engineering"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "D"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "D"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "C"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "P"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "P"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "P"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "D"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "programming"
+  ],
+  "constraints": {
+   "credit_headroom": 8,
+   "weekly_hours": 10,
+   "not_together": [],
+   "elective_slots": 2
+  },
+  "preferences": {
+   "learning_style": "practice problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-015",
+  "name": "Synthetic profile 15",
+  "persona": "synthetic:higher_studies",
+  "programme": "B.Tech Electrical Engineering",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 8.5,
+  "goal_text": "I plan to do an MS or PhD abroad and work in research.",
+  "goal_struct": {
+   "goal": "I plan to do an MS or PhD abroad and work in research",
+   "goal_id": "higher_studies"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "A"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "A"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "B"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "A"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "A"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "research_methods"
+  ],
+  "constraints": {
+   "credit_headroom": 0,
+   "weekly_hours": 8,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "projects",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-016",
+  "name": "Synthetic profile 16",
+  "persona": "synthetic:higher_studies",
+  "programme": "B.Tech Computer Science and Engineering",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 5.98,
+  "goal_text": "I plan to do an MS or PhD abroad and work in research.",
+  "goal_struct": {
+   "goal": "I plan to do an MS or PhD abroad and work in research",
+   "goal_id": "higher_studies"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "D"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "D"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "C"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "P"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "D"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "D"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "C"
+   },
+   {
+    "code": "EC2L001",
+    "grade": "C"
+   },
+   {
+    "code": "ID2L002",
+    "grade": "B"
+   },
+   {
+    "code": "CS2L001",
+    "grade": "D"
+   },
+   {
+    "code": "CS2L004",
+    "grade": "D"
+   },
+   {
+    "code": "EC2L002",
+    "grade": "D"
+   },
+   {
+    "code": "EC2P001",
+    "grade": "B"
+   },
+   {
+    "code": "EC2P002",
+    "grade": "C"
+   },
+   {
+    "code": "CS2P002",
+    "grade": "P"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "algorithms"
+  ],
+  "constraints": {
+   "credit_headroom": 8,
+   "weekly_hours": 15,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "practice problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-017",
+  "name": "Synthetic profile 17",
+  "persona": "synthetic:security",
+  "programme": "B.Tech Civil Engineering",
+  "year": 2,
+  "current_semester": 3,
+  "cgpa": 5.81,
+  "goal_text": "I want to work in cybersecurity.",
+  "goal_struct": {
+   "goal": "I want to work in cybersecurity",
+   "goal_id": "security"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "P"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "P"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "P"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "D"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "P"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "P"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "C"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "C"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "security"
+  ],
+  "constraints": {
+   "credit_headroom": 8,
+   "weekly_hours": 8,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "projects",
+   "exclude_courses": [
+    "CS6L019"
+   ]
+  }
+ },
+ {
+  "id": "SYN-018",
+  "name": "Synthetic profile 18",
+  "persona": "synthetic:data_science",
+  "programme": "B.Tech Metallurgical and Materials Engineering",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 7.77,
+  "goal_text": "I want to become a data scientist or data analyst.",
+  "goal_struct": {
+   "goal": "I want to become a data scientist or data analyst",
+   "goal_id": "data_science"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "A"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "C"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "D"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "D"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "A"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "data_analysis"
+  ],
+  "constraints": {
+   "credit_headroom": 6,
+   "weekly_hours": 6,
+   "not_together": [],
+   "minor": true
+  },
+  "preferences": {
+   "learning_style": "reading textbooks and notes",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-019",
+  "name": "Synthetic profile 19",
+  "persona": "synthetic:data_science",
+  "programme": "B.Tech Electronics and Communication Engineering",
+  "year": 3,
+  "current_semester": 5,
+  "cgpa": 6.68,
+  "goal_text": "I want to become a data scientist or data analyst.",
+  "goal_struct": {
+   "goal": "I want to become a data scientist or data analyst",
+   "goal_id": "data_science"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "C"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "A"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "P"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "D"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "B"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "D"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "D"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "machine_learning",
+   "probability_statistics"
+  ],
+  "constraints": {
+   "credit_headroom": 0,
+   "weekly_hours": 6,
+   "not_together": [],
+   "elective_slots": 1,
+   "minor": true
+  },
+  "preferences": {
+   "learning_style": "projects",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-020",
+  "name": "Synthetic profile 20",
+  "persona": "synthetic:software_engineering",
+  "programme": "B.Tech Mechanical Engineering",
+  "year": 4,
+  "current_semester": 7,
+  "cgpa": 7.95,
+  "goal_text": "I want a software engineering job after graduation.",
+  "goal_struct": {
+   "goal": "I want a software engineering job after graduation",
+   "goal_id": "software_engineering",
+   "previous_goal_id": "upsc"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "A"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "B"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "D"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "A"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "web_development",
+   "machine_learning"
+  ],
+  "constraints": {
+   "credit_headroom": 4,
+   "weekly_hours": 15,
+   "not_together": [
+    [
+     "ID6L004",
+     "CS4L012"
+    ]
+   ]
+  },
+  "preferences": {
+   "learning_style": "videos",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-021",
+  "name": "Synthetic profile 21",
+  "persona": "synthetic:software_engineering",
+  "programme": "B.Tech Computer Science and Engineering",
+  "year": 1,
+  "current_semester": 2,
+  "cgpa": 7.77,
+  "goal_text": "I want a software engineering job after graduation.",
+  "goal_struct": {
+   "goal": "I want a software engineering job after graduation",
+   "goal_id": "software_engineering"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "C"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "web_development"
+  ],
+  "constraints": {
+   "credit_headroom": 4,
+   "weekly_hours": 12,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "reading textbooks and notes",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-022",
+  "name": "Synthetic profile 22",
+  "persona": "synthetic:higher_studies",
+  "programme": "B.Tech Computer Science and Engineering",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 6.93,
+  "goal_text": "I plan to do an MS or PhD abroad and work in research.",
+  "goal_struct": {
+   "goal": "I plan to do an MS or PhD abroad and work in research",
+   "goal_id": "higher_studies"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "P"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "C"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "P"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "P"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "C"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "C"
+   },
+   {
+    "code": "EC2L001",
+    "grade": "C"
+   },
+   {
+    "code": "ID2L002",
+    "grade": "D"
+   },
+   {
+    "code": "CS2L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS2L004",
+    "grade": "B"
+   },
+   {
+    "code": "EC2L002",
+    "grade": "C"
+   },
+   {
+    "code": "EC2P001",
+    "grade": "A"
+   },
+   {
+    "code": "EC2P002",
+    "grade": "B"
+   },
+   {
+    "code": "CS2P002",
+    "grade": "C"
+   },
+   {
+    "code": "ID2L003",
+    "grade": "D"
+   },
+   {
+    "code": "MA2L006",
+    "grade": "D"
+   },
+   {
+    "code": "CS2L002",
+    "grade": "B"
+   },
+   {
+    "code": "EC2L004",
+    "grade": "B"
+   },
+   {
+    "code": "CS2P001",
+    "grade": "C"
+   },
+   {
+    "code": "EC2P004",
+    "grade": "D"
+   },
+   {
+    "code": "CS2S001",
+    "grade": "A"
+   },
+   {
+    "code": "CS3L001",
+    "grade": "P"
+   },
+   {
+    "code": "CS3L002",
+    "grade": "P"
+   },
+   {
+    "code": "CS3L005",
+    "grade": "C"
+   },
+   {
+    "code": "CS3P001",
+    "grade": "C"
+   },
+   {
+    "code": "CS3P003",
+    "grade": "C"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "algorithms"
+  ],
+  "constraints": {
+   "credit_headroom": 4,
+   "weekly_hours": 8,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "reading textbooks and notes",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-023",
+  "name": "Synthetic profile 23",
+  "persona": "synthetic:higher_studies",
+  "programme": "B.Tech Mechanical Engineering",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 6.96,
+  "goal_text": "I plan to do an MS or PhD abroad and work in research.",
+  "goal_struct": {
+   "goal": "I plan to do an MS or PhD abroad and work in research",
+   "goal_id": "higher_studies"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "C"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "C"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "C"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "P"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "D"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "D"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "research_methods",
+   "machine_learning"
+  ],
+  "constraints": {
+   "credit_headroom": 0,
+   "weekly_hours": 12,
+   "not_together": [],
+   "elective_slots": 1
+  },
+  "preferences": {
+   "learning_style": "short videos and hands-on coding problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-024",
+  "name": "Synthetic profile 24",
+  "persona": "synthetic:startup",
+  "programme": "B.Tech Computer Science and Engineering",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 6.47,
+  "goal_text": "I want to build and launch my own startup.",
+  "goal_struct": {
+   "goal": "I want to build and launch my own startup",
+   "goal_id": "startup",
+   "previous_goal_id": "mba"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "D"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "C"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "D"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "D"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "P"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "D"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "C"
+   },
+   {
+    "code": "EC2L001",
+    "grade": "D"
+   },
+   {
+    "code": "ID2L002",
+    "grade": "D"
+   },
+   {
+    "code": "CS2L001",
+    "grade": "P"
+   },
+   {
+    "code": "CS2L004",
+    "grade": "D"
+   },
+   {
+    "code": "EC2L002",
+    "grade": "D"
+   },
+   {
+    "code": "EC2P001",
+    "grade": "P"
+   },
+   {
+    "code": "EC2P002",
+    "grade": "C"
+   },
+   {
+    "code": "CS2P002",
+    "grade": "D"
+   },
+   {
+    "code": "ID2L003",
+    "grade": "D"
+   },
+   {
+    "code": "MA2L006",
+    "grade": "D"
+   },
+   {
+    "code": "EC2L004",
+    "grade": "D"
+   },
+   {
+    "code": "CS2P001",
+    "grade": "C"
+   },
+   {
+    "code": "EC2P004",
+    "grade": "C"
+   },
+   {
+    "code": "CS2S001",
+    "grade": "D"
+   },
+   {
+    "code": "CS3L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS3L005",
+    "grade": "D"
+   },
+   {
+    "code": "CS3P001",
+    "grade": "C"
+   },
+   {
+    "code": "CS3P003",
+    "grade": "D"
+   }
+  ],
+  "backlogs": [
+   "CS3L002",
+   "CS2L002"
+  ],
+  "interests": [
+   "software_engineering",
+   "web_development"
+  ],
+  "constraints": {
+   "credit_headroom": 6,
+   "weekly_hours": 6,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "short videos and hands-on coding problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-025",
+  "name": "Synthetic profile 25",
+  "persona": "synthetic:upsc",
+  "programme": "B.Tech Mechanical Engineering",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 7.34,
+  "goal_text": "I am preparing for the UPSC civil services exam.",
+  "goal_struct": {
+   "goal": "I am preparing for the UPSC civil services exam",
+   "goal_id": "upsc"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "D"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "D"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "B"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "D"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "C"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "economics",
+   "public_policy"
+  ],
+  "constraints": {
+   "credit_headroom": 6,
+   "weekly_hours": 6,
+   "not_together": [],
+   "elective_slots": 2
+  },
+  "preferences": {
+   "learning_style": "practice problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-026",
+  "name": "Synthetic profile 26",
+  "persona": "synthetic:software_engineering",
+  "programme": "B.Tech Mechanical Engineering",
+  "year": 2,
+  "current_semester": 3,
+  "cgpa": 7.32,
+  "goal_text": "I want a software engineering job after graduation.",
+  "goal_struct": {
+   "goal": "I want a software engineering job after graduation",
+   "goal_id": "software_engineering"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "C"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "D"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "C"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "C"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "D"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "A"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "D"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "algorithms",
+   "machine_learning"
+  ],
+  "constraints": {
+   "credit_headroom": 8,
+   "weekly_hours": 12,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "videos",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-027",
+  "name": "Synthetic profile 27",
+  "persona": "synthetic:upsc",
+  "programme": "B.Tech Electronics and Communication Engineering",
+  "year": 3,
+  "current_semester": 5,
+  "cgpa": 8.63,
+  "goal_text": "I am preparing for the UPSC civil services exam.",
+  "goal_struct": {
+   "goal": "I am preparing for the UPSC civil services exam",
+   "goal_id": "upsc"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "A"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "A"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "A"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "A"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "A"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "economics",
+   "public_policy"
+  ],
+  "constraints": {
+   "credit_headroom": 3,
+   "weekly_hours": 8,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "short videos and hands-on coding problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-028",
+  "name": "Synthetic profile 28",
+  "persona": "synthetic:higher_studies",
+  "programme": "B.Tech Computer Science and Engineering",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 8.49,
+  "goal_text": "I plan to do an MS or PhD abroad and work in research.",
+  "goal_struct": {
+   "goal": "I plan to do an MS or PhD abroad and work in research",
+   "goal_id": "higher_studies"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "A"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "A"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "A"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "A"
+   },
+   {
+    "code": "EC2L001",
+    "grade": "B"
+   },
+   {
+    "code": "ID2L002",
+    "grade": "P"
+   },
+   {
+    "code": "CS2L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS2L004",
+    "grade": "A"
+   },
+   {
+    "code": "EC2L002",
+    "grade": "EX"
+   },
+   {
+    "code": "EC2P001",
+    "grade": "A"
+   },
+   {
+    "code": "EC2P002",
+    "grade": "B"
+   },
+   {
+    "code": "CS2P002",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "machine_learning",
+   "algorithms"
+  ],
+  "constraints": {
+   "credit_headroom": 0,
+   "weekly_hours": 15,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "projects",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-029",
+  "name": "Synthetic profile 29",
+  "persona": "synthetic:gate",
+  "programme": "B.Tech Civil Engineering",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 6.5,
+  "goal_text": "I want to crack GATE and join an M.Tech at an IIT or IISc.",
+  "goal_struct": {
+   "goal": "I want to crack GATE and join an M.Tech at an IIT or IISc",
+   "goal_id": "gate"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "D"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "D"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "D"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "C"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "D"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "D"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "P"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "operating_systems",
+   "databases"
+  ],
+  "constraints": {
+   "credit_headroom": 6,
+   "weekly_hours": 10,
+   "not_together": [],
+   "elective_slots": 1
+  },
+  "preferences": {
+   "learning_style": "videos",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-030",
+  "name": "Synthetic profile 30",
+  "persona": "synthetic:data_science",
+  "programme": "B.Tech Electrical Engineering",
+  "year": 2,
+  "current_semester": 3,
+  "cgpa": 9.8,
+  "goal_text": "I want to become a data scientist or data analyst.",
+  "goal_struct": {
+   "goal": "I want to become a data scientist or data analyst",
+   "goal_id": "data_science"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "EX"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "EX"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "EX"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "probability_statistics",
+   "data_analysis"
+  ],
+  "constraints": {
+   "credit_headroom": 4,
+   "weekly_hours": 12,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "videos",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-031",
+  "name": "Synthetic profile 31",
+  "persona": "synthetic:security",
+  "programme": "B.Tech Computer Science and Engineering",
+  "year": 3,
+  "current_semester": 5,
+  "cgpa": 7.61,
+  "goal_text": "I want to work in cybersecurity.",
+  "goal_struct": {
+   "goal": "I want to work in cybersecurity",
+   "goal_id": "security"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "A"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "C"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "A"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EC2L001",
+    "grade": "C"
+   },
+   {
+    "code": "ID2L002",
+    "grade": "A"
+   },
+   {
+    "code": "CS2L001",
+    "grade": "A"
+   },
+   {
+    "code": "CS2L004",
+    "grade": "C"
+   },
+   {
+    "code": "EC2L002",
+    "grade": "B"
+   },
+   {
+    "code": "EC2P001",
+    "grade": "B"
+   },
+   {
+    "code": "EC2P002",
+    "grade": "C"
+   },
+   {
+    "code": "CS2P002",
+    "grade": "A"
+   },
+   {
+    "code": "ID2L003",
+    "grade": "C"
+   },
+   {
+    "code": "MA2L006",
+    "grade": "B"
+   },
+   {
+    "code": "CS2L002",
+    "grade": "C"
+   },
+   {
+    "code": "EC2L004",
+    "grade": "B"
+   },
+   {
+    "code": "CS2P001",
+    "grade": "C"
+   },
+   {
+    "code": "EC2P004",
+    "grade": "B"
+   },
+   {
+    "code": "CS2S001",
+    "grade": "A"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "programming"
+  ],
+  "constraints": {
+   "credit_headroom": 6,
+   "weekly_hours": 20,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "videos",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-032",
+  "name": "Synthetic profile 32",
+  "persona": "synthetic:upsc",
+  "programme": "B.Tech Mechanical Engineering",
+  "year": 2,
+  "current_semester": 3,
+  "cgpa": 7.78,
+  "goal_text": "I am preparing for the UPSC civil services exam.",
+  "goal_struct": {
+   "goal": "I am preparing for the UPSC civil services exam",
+   "goal_id": "upsc"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "C"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "C"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "A"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "A"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "environment_policy",
+   "economics"
+  ],
+  "constraints": {
+   "credit_headroom": 3,
+   "weekly_hours": 8,
+   "not_together": [],
+   "elective_slots": 2
+  },
+  "preferences": {
+   "learning_style": "reading textbooks and notes",
+   "exclude_courses": [
+    "CS6L034"
+   ]
+  }
+ },
+ {
+  "id": "SYN-033",
+  "name": "Synthetic profile 33",
+  "persona": "synthetic:higher_studies",
+  "programme": "B.Tech Electronics and Communication Engineering",
+  "year": 2,
+  "current_semester": 3,
+  "cgpa": 6.56,
+  "goal_text": "I plan to do an MS or PhD abroad and work in research.",
+  "goal_struct": {
+   "goal": "I plan to do an MS or PhD abroad and work in research",
+   "goal_id": "higher_studies"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "D"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "D"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "D"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "A"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "P"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "D"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "P"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "D"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "research_methods",
+   "algorithms"
+  ],
+  "constraints": {
+   "credit_headroom": 3,
+   "weekly_hours": 8,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "short videos and hands-on coding problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-034",
+  "name": "Synthetic profile 34",
+  "persona": "synthetic:security",
+  "programme": "B.Tech Computer Science and Engineering",
+  "year": 3,
+  "current_semester": 5,
+  "cgpa": 8.38,
+  "goal_text": "I want to work in cybersecurity.",
+  "goal_struct": {
+   "goal": "I want to work in cybersecurity",
+   "goal_id": "security"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "A"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "A"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "A"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "B"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "EC2L001",
+    "grade": "A"
+   },
+   {
+    "code": "ID2L002",
+    "grade": "C"
+   },
+   {
+    "code": "CS2L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS2L004",
+    "grade": "B"
+   },
+   {
+    "code": "EC2L002",
+    "grade": "EX"
+   },
+   {
+    "code": "EC2P001",
+    "grade": "A"
+   },
+   {
+    "code": "EC2P002",
+    "grade": "C"
+   },
+   {
+    "code": "CS2P002",
+    "grade": "B"
+   },
+   {
+    "code": "ID2L003",
+    "grade": "B"
+   },
+   {
+    "code": "MA2L006",
+    "grade": "C"
+   },
+   {
+    "code": "CS2L002",
+    "grade": "EX"
+   },
+   {
+    "code": "EC2L004",
+    "grade": "A"
+   },
+   {
+    "code": "CS2P001",
+    "grade": "A"
+   },
+   {
+    "code": "EC2P004",
+    "grade": "B"
+   },
+   {
+    "code": "CS2S001",
+    "grade": "A"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "security"
+  ],
+  "constraints": {
+   "credit_headroom": 6,
+   "weekly_hours": 6,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "videos",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-035",
+  "name": "Synthetic profile 35",
+  "persona": "synthetic:data_science",
+  "programme": "B.Tech Electrical Engineering",
+  "year": 4,
+  "current_semester": 7,
+  "cgpa": 8.14,
+  "goal_text": "I want to become a data scientist or data analyst.",
+  "goal_struct": {
+   "goal": "I want to become a data scientist or data analyst",
+   "goal_id": "data_science"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "A"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "A"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "EX"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "A"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "machine_learning",
+   "data_analysis"
+  ],
+  "constraints": {
+   "credit_headroom": 6,
+   "weekly_hours": 8,
+   "not_together": [],
+   "minor": true
+  },
+  "preferences": {
+   "learning_style": "reading textbooks and notes",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-036",
+  "name": "Synthetic profile 36",
+  "persona": "synthetic:security",
+  "programme": "B.Tech Electronics and Communication Engineering",
+  "year": 4,
+  "current_semester": 7,
+  "cgpa": 6.3,
+  "goal_text": "I want to work in cybersecurity.",
+  "goal_struct": {
+   "goal": "I want to work in cybersecurity",
+   "goal_id": "security"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "D"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "C"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "C"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "C"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "D"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "P"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "C"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "programming",
+   "security"
+  ],
+  "constraints": {
+   "credit_headroom": 8,
+   "weekly_hours": 10,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "projects",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-037",
+  "name": "Synthetic profile 37",
+  "persona": "synthetic:gate",
+  "programme": "B.Tech Civil Engineering",
+  "year": 3,
+  "current_semester": 5,
+  "cgpa": 8.9,
+  "goal_text": "I want to crack GATE and join an M.Tech at an IIT or IISc.",
+  "goal_struct": {
+   "goal": "I want to crack GATE and join an M.Tech at an IIT or IISc",
+   "goal_id": "gate"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "A"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "A"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "A"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "algorithms"
+  ],
+  "constraints": {
+   "credit_headroom": 6,
+   "weekly_hours": 10,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "short videos and hands-on coding problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-038",
+  "name": "Synthetic profile 38",
+  "persona": "synthetic:gate",
+  "programme": "B.Tech Computer Science and Engineering",
+  "year": 1,
+  "current_semester": 2,
+  "cgpa": 7.5,
+  "goal_text": "I want to crack GATE and join an M.Tech at an IIT or IISc.",
+  "goal_struct": {
+   "goal": "I want to crack GATE and join an M.Tech at an IIT or IISc",
+   "goal_id": "gate"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "D"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "C"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "C"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "algorithms",
+   "databases"
+  ],
+  "constraints": {
+   "credit_headroom": 0,
+   "weekly_hours": 12,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "short videos and hands-on coding problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-039",
+  "name": "Synthetic profile 39",
+  "persona": "synthetic:software_engineering",
+  "programme": "B.Tech Chemical Engineering",
+  "year": 2,
+  "current_semester": 3,
+  "cgpa": 8.28,
+  "goal_text": "I want a software engineering job after graduation.",
+  "goal_struct": {
+   "goal": "I want a software engineering job after graduation",
+   "goal_id": "software_engineering"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "A"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "D"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "A"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "A"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "algorithms"
+  ],
+  "constraints": {
+   "credit_headroom": 0,
+   "weekly_hours": 6,
+   "not_together": [],
+   "minor": true
+  },
+  "preferences": {
+   "learning_style": "videos",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-040",
+  "name": "Synthetic profile 40",
+  "persona": "synthetic:software_engineering",
+  "programme": "B.Tech Computer Science and Engineering",
+  "year": 2,
+  "current_semester": 3,
+  "cgpa": 7.93,
+  "goal_text": "I want a software engineering job after graduation.",
+  "goal_struct": {
+   "goal": "I want a software engineering job after graduation",
+   "goal_id": "software_engineering"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "D"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "D"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "A"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "A"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "A"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "C"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "algorithms",
+   "web_development"
+  ],
+  "constraints": {
+   "credit_headroom": 3,
+   "weekly_hours": 8,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "short videos and hands-on coding problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-041",
+  "name": "Synthetic profile 41",
+  "persona": "synthetic:data_science",
+  "programme": "B.Tech Electrical Engineering",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 8.11,
+  "goal_text": "I want to become a data scientist or data analyst.",
+  "goal_struct": {
+   "goal": "I want to become a data scientist or data analyst",
+   "goal_id": "data_science"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "A"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "A"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "machine_learning",
+   "data_analysis"
+  ],
+  "constraints": {
+   "credit_headroom": 3,
+   "weekly_hours": 10,
+   "not_together": [
+    [
+     "ID6L004",
+     "CS4L012"
+    ]
+   ],
+   "elective_slots": 2
+  },
+  "preferences": {
+   "learning_style": "projects",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-042",
+  "name": "Synthetic profile 42",
+  "persona": "synthetic:software_engineering",
+  "programme": "B.Tech Metallurgical and Materials Engineering",
+  "year": 4,
+  "current_semester": 7,
+  "cgpa": 6.47,
+  "goal_text": "I want a software engineering job after graduation.",
+  "goal_struct": {
+   "goal": "I want a software engineering job after graduation",
+   "goal_id": "software_engineering"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "P"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "C"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "C"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "P"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "P"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "D"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "C"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "C"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "C"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "web_development"
+  ],
+  "constraints": {
+   "credit_headroom": 3,
+   "weekly_hours": 6,
+   "not_together": [],
+   "minor": true
+  },
+  "preferences": {
+   "learning_style": "videos",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-043",
+  "name": "Synthetic profile 43",
+  "persona": "synthetic:data_science",
+  "programme": "B.Tech Chemical Engineering",
+  "year": 2,
+  "current_semester": 3,
+  "cgpa": 6.94,
+  "goal_text": "I want to become a data scientist or data analyst.",
+  "goal_struct": {
+   "goal": "I want to become a data scientist or data analyst",
+   "goal_id": "data_science"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "C"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "C"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "C"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "C"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "C"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "C"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "probability_statistics"
+  ],
+  "constraints": {
+   "credit_headroom": 3,
+   "weekly_hours": 12,
+   "not_together": [],
+   "elective_slots": 1
+  },
+  "preferences": {
+   "learning_style": "videos",
+   "exclude_courses": [
+    "CS3L007"
+   ]
+  }
+ },
+ {
+  "id": "SYN-044",
+  "name": "Synthetic profile 44",
+  "persona": "synthetic:software_engineering",
+  "programme": "B.Tech Electronics and Communication Engineering",
+  "year": 1,
+  "current_semester": 2,
+  "cgpa": 9.45,
+  "goal_text": "I want a software engineering job after graduation.",
+  "goal_struct": {
+   "goal": "I want a software engineering job after graduation",
+   "goal_id": "software_engineering"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "A"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "machine_learning"
+  ],
+  "constraints": {
+   "credit_headroom": 8,
+   "weekly_hours": 12,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "projects",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-045",
+  "name": "Synthetic profile 45",
+  "persona": "synthetic:data_science",
+  "programme": "B.Tech Metallurgical and Materials Engineering",
+  "year": 1,
+  "current_semester": 2,
+  "cgpa": 8.6,
+  "goal_text": "I want to become a data scientist or data analyst.",
+  "goal_struct": {
+   "goal": "I want to become a data scientist or data analyst",
+   "goal_id": "data_science"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "A"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "A"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "EX"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "machine_learning",
+   "probability_statistics"
+  ],
+  "constraints": {
+   "credit_headroom": 8,
+   "weekly_hours": 6,
+   "not_together": [],
+   "elective_slots": 2,
+   "minor": true
+  },
+  "preferences": {
+   "learning_style": "short videos and hands-on coding problems",
+   "exclude_courses": [
+    "CS6L019"
+   ]
+  }
+ },
+ {
+  "id": "SYN-046",
+  "name": "Synthetic profile 46",
+  "persona": "synthetic:software_engineering",
+  "programme": "B.Tech Chemical Engineering",
+  "year": 2,
+  "current_semester": 3,
+  "cgpa": 7.36,
+  "goal_text": "I want a software engineering job after graduation.",
+  "goal_struct": {
+   "goal": "I want a software engineering job after graduation",
+   "goal_id": "software_engineering"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "P"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "C"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "D"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "C"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "algorithms",
+   "machine_learning"
+  ],
+  "constraints": {
+   "credit_headroom": 6,
+   "weekly_hours": 12,
+   "not_together": [],
+   "minor": true
+  },
+  "preferences": {
+   "learning_style": "projects",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-047",
+  "name": "Synthetic profile 47",
+  "persona": "synthetic:mba",
+  "programme": "B.Tech Civil Engineering",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 7.37,
+  "goal_text": "I want to do an MBA and move into product management.",
+  "goal_struct": {
+   "goal": "I want to do an MBA and move into product management",
+   "goal_id": "mba"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "D"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "A"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "C"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "C"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "data_analysis"
+  ],
+  "constraints": {
+   "credit_headroom": 8,
+   "weekly_hours": 6,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "practice problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-048",
+  "name": "Synthetic profile 48",
+  "persona": "synthetic:software_engineering",
+  "programme": "B.Tech Civil Engineering",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 7.38,
+  "goal_text": "I want a software engineering job after graduation.",
+  "goal_struct": {
+   "goal": "I want a software engineering job after graduation",
+   "goal_id": "software_engineering"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "C"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "A"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "D"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "C"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "C"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "C"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "machine_learning"
+  ],
+  "constraints": {
+   "credit_headroom": 8,
+   "weekly_hours": 6,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "practice problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-049",
+  "name": "Synthetic profile 49",
+  "persona": "synthetic:data_science",
+  "programme": "B.Tech Computer Science and Engineering",
+  "year": 4,
+  "current_semester": 7,
+  "cgpa": 6.66,
+  "goal_text": "I want to become a data scientist or data analyst.",
+  "goal_struct": {
+   "goal": "I want to become a data scientist or data analyst",
+   "goal_id": "data_science"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "C"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "C"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "C"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "D"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "D"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "C"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EC2L001",
+    "grade": "D"
+   },
+   {
+    "code": "ID2L002",
+    "grade": "P"
+   },
+   {
+    "code": "CS2L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS2L004",
+    "grade": "C"
+   },
+   {
+    "code": "EC2L002",
+    "grade": "B"
+   },
+   {
+    "code": "EC2P001",
+    "grade": "C"
+   },
+   {
+    "code": "EC2P002",
+    "grade": "D"
+   },
+   {
+    "code": "CS2P002",
+    "grade": "C"
+   },
+   {
+    "code": "ID2L003",
+    "grade": "C"
+   },
+   {
+    "code": "MA2L006",
+    "grade": "D"
+   },
+   {
+    "code": "CS2L002",
+    "grade": "C"
+   },
+   {
+    "code": "EC2L004",
+    "grade": "C"
+   },
+   {
+    "code": "CS2P001",
+    "grade": "D"
+   },
+   {
+    "code": "EC2P004",
+    "grade": "C"
+   },
+   {
+    "code": "CS2S001",
+    "grade": "D"
+   },
+   {
+    "code": "CS3L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS3L002",
+    "grade": "C"
+   },
+   {
+    "code": "CS3L005",
+    "grade": "C"
+   },
+   {
+    "code": "CS3P001",
+    "grade": "P"
+   },
+   {
+    "code": "CS3P003",
+    "grade": "B"
+   },
+   {
+    "code": "CS3L003",
+    "grade": "B"
+   },
+   {
+    "code": "CS3P002",
+    "grade": "P"
+   },
+   {
+    "code": "CS3P004",
+    "grade": "D"
+   }
+  ],
+  "backlogs": [
+   "CS3L006"
+  ],
+  "interests": [
+   "machine_learning"
+  ],
+  "constraints": {
+   "credit_headroom": 0,
+   "weekly_hours": 6,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "videos",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-050",
+  "name": "Synthetic profile 50",
+  "persona": "synthetic:startup",
+  "programme": "B.Tech Mechanical Engineering",
+  "year": 4,
+  "current_semester": 7,
+  "cgpa": 7.75,
+  "goal_text": "I want to build and launch my own startup.",
+  "goal_struct": {
+   "goal": "I want to build and launch my own startup",
+   "goal_id": "startup"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "A"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "A"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "C"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "C"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "A"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "entrepreneurship"
+  ],
+  "constraints": {
+   "credit_headroom": 0,
+   "weekly_hours": 8,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "projects",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-051",
+  "name": "Synthetic profile 51",
+  "persona": "synthetic:software_engineering",
+  "programme": "B.Tech Mechanical Engineering",
+  "year": 1,
+  "current_semester": 2,
+  "cgpa": 7.05,
+  "goal_text": "I want a software engineering job after graduation.",
+  "goal_struct": {
+   "goal": "I want a software engineering job after graduation",
+   "goal_id": "software_engineering"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "P"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "D"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "C"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "web_development"
+  ],
+  "constraints": {
+   "credit_headroom": 4,
+   "weekly_hours": 12,
+   "not_together": [],
+   "elective_slots": 2
+  },
+  "preferences": {
+   "learning_style": "short videos and hands-on coding problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-052",
+  "name": "Synthetic profile 52",
+  "persona": "synthetic:higher_studies",
+  "programme": "B.Tech Computer Science and Engineering",
+  "year": 1,
+  "current_semester": 2,
+  "cgpa": 5.82,
+  "goal_text": "I plan to do an MS or PhD abroad and work in research.",
+  "goal_struct": {
+   "goal": "I plan to do an MS or PhD abroad and work in research",
+   "goal_id": "higher_studies",
+   "previous_goal_id": "software_engineering"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "P"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "C"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "P"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "P"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "D"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "algorithms",
+   "research_methods"
+  ],
+  "constraints": {
+   "credit_headroom": 0,
+   "weekly_hours": 6,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "short videos and hands-on coding problems",
+   "exclude_courses": [
+    "CS3L007"
+   ]
+  }
+ },
+ {
+  "id": "SYN-053",
+  "name": "Synthetic profile 53",
+  "persona": "synthetic:mba",
+  "programme": "B.Tech Electrical Engineering",
+  "year": 1,
+  "current_semester": 2,
+  "cgpa": 8.43,
+  "goal_text": "I want to do an MBA and move into product management.",
+  "goal_struct": {
+   "goal": "I want to do an MBA and move into product management",
+   "goal_id": "mba"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "C"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "communication"
+  ],
+  "constraints": {
+   "credit_headroom": 4,
+   "weekly_hours": 8,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "short videos and hands-on coding problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-054",
+  "name": "Synthetic profile 54",
+  "persona": "synthetic:data_science",
+  "programme": "B.Tech Computer Science and Engineering",
+  "year": 3,
+  "current_semester": 5,
+  "cgpa": 6.77,
+  "goal_text": "I want to become a data scientist or data analyst.",
+  "goal_struct": {
+   "goal": "I want to become a data scientist or data analyst",
+   "goal_id": "data_science"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "C"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "D"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "B"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "C"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "C"
+   },
+   {
+    "code": "EC2L001",
+    "grade": "C"
+   },
+   {
+    "code": "ID2L002",
+    "grade": "C"
+   },
+   {
+    "code": "CS2L001",
+    "grade": "D"
+   },
+   {
+    "code": "CS2L004",
+    "grade": "D"
+   },
+   {
+    "code": "EC2L002",
+    "grade": "D"
+   },
+   {
+    "code": "EC2P001",
+    "grade": "C"
+   },
+   {
+    "code": "EC2P002",
+    "grade": "D"
+   },
+   {
+    "code": "CS2P002",
+    "grade": "D"
+   },
+   {
+    "code": "ID2L003",
+    "grade": "D"
+   },
+   {
+    "code": "MA2L006",
+    "grade": "D"
+   },
+   {
+    "code": "CS2L002",
+    "grade": "C"
+   },
+   {
+    "code": "EC2L004",
+    "grade": "B"
+   },
+   {
+    "code": "CS2P001",
+    "grade": "C"
+   },
+   {
+    "code": "EC2P004",
+    "grade": "C"
+   },
+   {
+    "code": "CS2S001",
+    "grade": "C"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "data_analysis"
+  ],
+  "constraints": {
+   "credit_headroom": 4,
+   "weekly_hours": 10,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "practice problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-055",
+  "name": "Synthetic profile 55",
+  "persona": "synthetic:gate",
+  "programme": "B.Tech Electrical Engineering",
+  "year": 2,
+  "current_semester": 3,
+  "cgpa": 6.77,
+  "goal_text": "I want to crack GATE and join an M.Tech at an IIT or IISc.",
+  "goal_struct": {
+   "goal": "I want to crack GATE and join an M.Tech at an IIT or IISc",
+   "goal_id": "gate"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "C"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "C"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "C"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "D"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "P"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "D"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "algorithms",
+   "databases"
+  ],
+  "constraints": {
+   "credit_headroom": 8,
+   "weekly_hours": 10,
+   "not_together": [],
+   "elective_slots": 2
+  },
+  "preferences": {
+   "learning_style": "short videos and hands-on coding problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-056",
+  "name": "Synthetic profile 56",
+  "persona": "synthetic:higher_studies",
+  "programme": "B.Tech Computer Science and Engineering",
+  "year": 2,
+  "current_semester": 3,
+  "cgpa": 7.5,
+  "goal_text": "I plan to do an MS or PhD abroad and work in research.",
+  "goal_struct": {
+   "goal": "I plan to do an MS or PhD abroad and work in research",
+   "goal_id": "higher_studies"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "C"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "D"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "C"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "D"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "C"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "D"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "C"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "algorithms",
+   "machine_learning"
+  ],
+  "constraints": {
+   "credit_headroom": 8,
+   "weekly_hours": 10,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "videos",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-057",
+  "name": "Synthetic profile 57",
+  "persona": "synthetic:higher_studies",
+  "programme": "B.Tech Mechanical Engineering",
+  "year": 3,
+  "current_semester": 5,
+  "cgpa": 8.43,
+  "goal_text": "I plan to do an MS or PhD abroad and work in research.",
+  "goal_struct": {
+   "goal": "I plan to do an MS or PhD abroad and work in research",
+   "goal_id": "higher_studies"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "A"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "B"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "B"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "A"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "machine_learning",
+   "algorithms"
+  ],
+  "constraints": {
+   "credit_headroom": 3,
+   "weekly_hours": 10,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "reading textbooks and notes",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-058",
+  "name": "Synthetic profile 58",
+  "persona": "synthetic:software_engineering",
+  "programme": "B.Tech Chemical Engineering",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 7.66,
+  "goal_text": "I want a software engineering job after graduation.",
+  "goal_struct": {
+   "goal": "I want a software engineering job after graduation",
+   "goal_id": "software_engineering"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "C"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "C"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "C"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "C"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "C"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "algorithms",
+   "web_development"
+  ],
+  "constraints": {
+   "credit_headroom": 8,
+   "weekly_hours": 15,
+   "not_together": [],
+   "elective_slots": 2,
+   "minor": true
+  },
+  "preferences": {
+   "learning_style": "practice problems",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-059",
+  "name": "Synthetic profile 59",
+  "persona": "synthetic:data_science",
+  "programme": "B.Tech Electronics and Communication Engineering",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 6.89,
+  "goal_text": "I want to become a data scientist or data analyst.",
+  "goal_struct": {
+   "goal": "I want to become a data scientist or data analyst",
+   "goal_id": "data_science"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "C"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "D"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "P"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "C"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "D"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "P"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "D"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "data_analysis"
+  ],
+  "constraints": {
+   "credit_headroom": 0,
+   "weekly_hours": 15,
+   "not_together": [],
+   "minor": true
+  },
+  "preferences": {
+   "learning_style": "videos",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-060",
+  "name": "Synthetic profile 60",
+  "persona": "synthetic:data_science",
+  "programme": "B.Tech Electronics and Communication Engineering",
+  "year": 2,
+  "current_semester": 4,
+  "cgpa": 9.16,
+  "goal_text": "I want to become a data scientist or data analyst.",
+  "goal_struct": {
+   "goal": "I want to become a data scientist or data analyst",
+   "goal_id": "data_science"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "A"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "A"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "A"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "A"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "EX"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "B"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "machine_learning",
+   "probability_statistics"
+  ],
+  "constraints": {
+   "credit_headroom": 3,
+   "weekly_hours": 6,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "projects",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-061",
+  "name": "Synthetic profile 61",
+  "persona": "synthetic:higher_studies",
+  "programme": "B.Tech Chemical Engineering",
+  "year": 1,
+  "current_semester": 2,
+  "cgpa": 7.4,
+  "goal_text": "I plan to do an MS or PhD abroad and work in research.",
+  "goal_struct": {
+   "goal": "I plan to do an MS or PhD abroad and work in research",
+   "goal_id": "higher_studies",
+   "previous_goal_id": "security"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "B"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "B"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "C"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "research_methods"
+  ],
+  "constraints": {
+   "credit_headroom": 6,
+   "weekly_hours": 10,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "reading textbooks and notes",
+   "exclude_courses": []
+  }
+ },
+ {
+  "id": "SYN-062",
+  "name": "Synthetic profile 62",
+  "persona": "synthetic:software_engineering",
+  "programme": "B.Tech Computer Science and Engineering",
+  "year": 3,
+  "current_semester": 6,
+  "cgpa": 7.43,
+  "goal_text": "I want a software engineering job after graduation.",
+  "goal_struct": {
+   "goal": "I want a software engineering job after graduation",
+   "goal_id": "software_engineering"
+  },
+  "completed_courses": [
+   {
+    "code": "MA1L001",
+    "grade": "B"
+   },
+   {
+    "code": "PH1L001",
+    "grade": "B"
+   },
+   {
+    "code": "ME1L001",
+    "grade": "C"
+   },
+   {
+    "code": "EE1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS1P001",
+    "grade": "B"
+   },
+   {
+    "code": "MA1L002",
+    "grade": "C"
+   },
+   {
+    "code": "CY1L001",
+    "grade": "B"
+   },
+   {
+    "code": "HS1L001",
+    "grade": "D"
+   },
+   {
+    "code": "EC2L001",
+    "grade": "D"
+   },
+   {
+    "code": "ID2L002",
+    "grade": "C"
+   },
+   {
+    "code": "CS2L001",
+    "grade": "A"
+   },
+   {
+    "code": "CS2L004",
+    "grade": "C"
+   },
+   {
+    "code": "EC2L002",
+    "grade": "C"
+   },
+   {
+    "code": "EC2P001",
+    "grade": "D"
+   },
+   {
+    "code": "EC2P002",
+    "grade": "D"
+   },
+   {
+    "code": "CS2P002",
+    "grade": "B"
+   },
+   {
+    "code": "ID2L003",
+    "grade": "D"
+   },
+   {
+    "code": "MA2L006",
+    "grade": "B"
+   },
+   {
+    "code": "CS2L002",
+    "grade": "C"
+   },
+   {
+    "code": "EC2L004",
+    "grade": "D"
+   },
+   {
+    "code": "CS2P001",
+    "grade": "B"
+   },
+   {
+    "code": "EC2P004",
+    "grade": "B"
+   },
+   {
+    "code": "CS2S001",
+    "grade": "B"
+   },
+   {
+    "code": "CS3L001",
+    "grade": "C"
+   },
+   {
+    "code": "CS3L002",
+    "grade": "D"
+   },
+   {
+    "code": "CS3L005",
+    "grade": "C"
+   },
+   {
+    "code": "CS3P001",
+    "grade": "C"
+   },
+   {
+    "code": "CS3P003",
+    "grade": "C"
+   }
+  ],
+  "backlogs": [],
+  "interests": [
+   "programming",
+   "web_development"
+  ],
+  "constraints": {
+   "credit_headroom": 6,
+   "weekly_hours": 8,
+   "not_together": []
+  },
+  "preferences": {
+   "learning_style": "practice problems",
+   "exclude_courses": [
+    "CS4L012"
+   ]
+  }
+ }
+]

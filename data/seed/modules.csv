@@ -1,0 +1,214 @@
+id,course_code,position,title,kind,est_hours,skill_id
+M-MA1L001-01,MA1L001,1,"Limits, continuity and mean value theorems",intro,4,calculus
+M-MA1L001-02,MA1L001,2,Calculus of several variables,core,5,calculus
+M-MA1L001-03,MA1L001,3,Vector calculus and integral theorems,core,5,calculus
+M-MA1L001-04,MA1L001,4,Ordinary differential equations,core,5,calculus
+M-MA1L002-01,MA1L002,1,"Vector spaces, span and independence",intro,4,linear_algebra
+M-MA1L002-02,MA1L002,2,"Basis, dimension and linear maps",core,5,linear_algebra
+M-MA1L002-03,MA1L002,3,"Rank, nullity and linear systems",core,5,linear_algebra
+M-MA1L002-04,MA1L002,4,Eigenvalues and diagonalisation,advanced,5,linear_algebra
+M-CS1L001-01,CS1L001,1,"Variables, types and expressions",intro,3,programming
+M-CS1L001-02,CS1L001,2,Control flow: branching and loops,intro,4,programming
+M-CS1L001-03,CS1L001,3,Functions and recursion,core,4,programming
+M-CS1L001-04,CS1L001,4,"Arrays, strings and pointers",core,5,programming
+M-CS1L001-05,CS1L001,5,"Linked lists, stacks and queues",core,5,programming
+M-CS1L001-06,CS1L001,6,Searching and sorting,advanced,4,programming
+M-CS1P001-01,CS1P001,1,"Lab: expressions, conditionals and loops",intro,3,programming
+M-CS1P001-02,CS1P001,2,"Lab: recursion, arrays and strings",core,3,programming
+M-CS1P001-03,CS1P001,3,Lab: structures and linked lists,core,3,programming
+M-HS1L001-01,HS1L001,1,Reading prose and poetry critically,intro,3,communication
+M-HS1L001-02,HS1L001,2,Grammar and usage,intro,3,communication
+M-HS1L001-03,HS1L001,3,Professional writing,core,4,communication
+M-HS1L001-04,HS1L001,4,Presentations and spoken communication,core,4,communication
+M-PH1L001-01,PH1L001,1,Lagrangian and Hamiltonian mechanics,core,5,
+M-PH1L001-02,PH1L001,2,"Waves, oscillations and optics",core,5,
+M-PH1L001-03,PH1L001,3,Wave mechanics,core,5,
+M-CY1L001-01,CY1L001,1,Thermodynamics and kinetics,core,5,
+M-CY1L001-02,CY1L001,2,Electrochemistry and bonding,core,5,
+M-CY1L001-03,CY1L001,3,Functional materials,core,4,
+M-ME1L001-01,ME1L001,1,Force systems and equilibrium,core,5,
+M-ME1L001-02,ME1L001,2,Kinematics and kinetics,core,5,
+M-ME1L001-03,ME1L001,3,"Stress, strain and bending",core,5,
+M-EE1L001-01,EE1L001,1,DC network analysis,core,5,
+M-EE1L001-02,EE1L001,2,AC circuits,core,5,
+M-EE1L001-03,EE1L001,3,Transformers and machines,core,5,
+M-EC2L001-01,EC2L001,1,Diodes and rectifiers,intro,4,digital_logic
+M-EC2L001-02,EC2L001,2,BJT and MOSFET amplifiers,core,5,digital_logic
+M-EC2L001-03,EC2L001,3,Operational amplifiers,core,4,digital_logic
+M-ID2L002-01,ID2L002,1,Cells and tissues,intro,3,
+M-ID2L002-02,ID2L002,2,"Genes, DNA and bioinformatics",core,3,
+M-CS2L001-01,CS2L001,1,"Sets, induction and proof techniques",intro,4,discrete_math
+M-CS2L001-02,CS2L001,2,Relations and partial orders,core,4,discrete_math
+M-CS2L001-03,CS2L001,3,Propositional and predicate logic,core,4,discrete_math
+M-CS2L001-04,CS2L001,4,Counting and recurrences,core,4,discrete_math
+M-CS2L001-05,CS2L001,5,Graphs and trees,advanced,4,discrete_math
+M-CS2L004-01,CS2L004,1,"Stacks, queues and linked lists in use",intro,3,data_structures
+M-CS2L004-02,CS2L004,2,"Trees, traversals and BSTs",core,4,data_structures
+M-CS2L004-03,CS2L004,3,"Balanced trees: AVL, red-black, B-trees",core,5,data_structures
+M-CS2L004-04,CS2L004,4,Hashing and dictionaries,core,4,data_structures
+M-CS2L004-05,CS2L004,5,Heaps and priority queues,core,3,data_structures
+M-CS2L004-06,CS2L004,6,Tries and suffix trees,advanced,3,data_structures
+M-EC2L002-01,EC2L002,1,LTI systems and convolution,core,5,
+M-EC2L002-02,EC2L002,2,Fourier analysis,core,5,
+M-EC2L002-03,EC2L002,3,"Laplace, z-transform and sampling",advanced,5,
+M-EC2P001-01,EC2P001,1,Lab: instruments and diode circuits,core,3,
+M-EC2P001-02,EC2P001,2,Lab: transistor amplifiers,core,3,
+M-EC2P002-01,EC2P002,1,Lab: MATLAB basics,intro,3,programming
+M-EC2P002-02,EC2P002,2,Lab: convolution and Fourier experiments,core,3,programming
+M-CS2P002-01,CS2P002,1,"Lab: stacks, deques and priority queues",core,3,data_structures
+M-CS2P002-02,CS2P002,2,Lab: BST and AVL trees,core,3,data_structures
+M-CS2P002-03,CS2P002,3,Lab: string dictionaries,advanced,3,data_structures
+M-ID2L003-01,ID2L003,1,Ecosystems and resources,intro,3,environment_policy
+M-ID2L003-02,ID2L003,2,Pollution and environmental management,core,3,environment_policy
+M-MA2L006-01,MA2L006,1,Counting and combinatorics,intro,4,probability_statistics
+M-MA2L006-02,MA2L006,2,Random variables and distributions,core,5,probability_statistics
+M-MA2L006-03,MA2L006,3,Expectation and limit theorems,core,4,probability_statistics
+M-MA2L006-04,MA2L006,4,Estimation and hypothesis testing,advanced,5,probability_statistics
+M-CS2L002-01,CS2L002,1,Asymptotic analysis and recurrences,intro,4,algorithms
+M-CS2L002-02,CS2L002,2,Divide and conquer,core,4,algorithms
+M-CS2L002-03,CS2L002,3,Greedy algorithms,core,4,algorithms
+M-CS2L002-04,CS2L002,4,Dynamic programming,core,6,algorithms
+M-CS2L002-05,CS2L002,5,Graph algorithms,core,6,algorithms
+M-CS2L002-06,CS2L002,6,NP-completeness,advanced,4,algorithms
+M-EC2L004-01,EC2L004,1,Boolean algebra and minimisation,intro,4,digital_logic
+M-EC2L004-02,EC2L004,2,Combinational circuits,core,4,digital_logic
+M-EC2L004-03,EC2L004,3,Sequential circuits and counters,core,5,digital_logic
+M-CS2P001-01,CS2P001,1,Lab: sorting and divide and conquer,core,3,algorithms
+M-CS2P001-02,CS2P001,2,Lab: graph traversals and shortest paths,core,3,algorithms
+M-CS2P001-03,CS2P001,3,Lab: network flows,advanced,3,algorithms
+M-EC2P004-01,EC2P004,1,Lab: combinational circuits,core,3,digital_logic
+M-EC2P004-02,EC2P004,2,Lab: flip-flops and counters,core,3,digital_logic
+M-CS2S001-01,CS2S001,1,Choosing a topic and finding sources,intro,3,communication
+M-CS2S001-02,CS2S001,2,Writing a survey report,core,4,communication
+M-CS2S001-03,CS2S001,3,Seminar presentation,core,3,communication
+M-CS3L001-01,CS3L001,1,Finite automata,intro,4,theory_of_computation
+M-CS3L001-02,CS3L001,2,Regular expressions and pumping lemma,core,4,theory_of_computation
+M-CS3L001-03,CS3L001,3,Context-free grammars and PDAs,core,5,theory_of_computation
+M-CS3L001-04,CS3L001,4,Turing machines and decidability,advanced,5,theory_of_computation
+M-CS3L002-01,CS3L002,1,Instruction sets and assembly,intro,4,computer_architecture
+M-CS3L002-02,CS3L002,2,CPU datapath and control,core,5,computer_architecture
+M-CS3L002-03,CS3L002,3,Pipelining,core,4,computer_architecture
+M-CS3L002-04,CS3L002,4,Memory hierarchy and caches,core,5,computer_architecture
+M-CS3L002-05,CS3L002,5,I/O and interrupts,advanced,3,computer_architecture
+M-CS3L005-01,CS3L005,1,Processes and threads,intro,4,operating_systems
+M-CS3L005-02,CS3L005,2,CPU scheduling,core,4,operating_systems
+M-CS3L005-03,CS3L005,3,Synchronisation and deadlocks,core,5,operating_systems
+M-CS3L005-04,CS3L005,4,Memory management and virtual memory,core,5,operating_systems
+M-CS3L005-05,CS3L005,5,File systems and I/O,advanced,4,operating_systems
+M-CS3P001-01,CS3P001,1,Lab: assembly programming,core,3,computer_architecture
+M-CS3P001-02,CS3P001,2,Lab: datapath and processor design,advanced,3,computer_architecture
+M-CS3P003-01,CS3P003,1,Lab: process system calls and IPC,core,3,operating_systems
+M-CS3P003-02,CS3P003,2,Lab: scheduling simulation,core,3,operating_systems
+M-CS3L003-01,CS3L003,1,Data models and ER design,intro,4,databases
+M-CS3L003-02,CS3L003,2,Relational algebra and SQL,core,6,databases
+M-CS3L003-03,CS3L003,3,Normalisation,core,4,databases
+M-CS3L003-04,CS3L003,4,Indexing and query processing,core,4,databases
+M-CS3L003-05,CS3L003,5,Transactions and recovery,advanced,4,databases
+M-CS3L006-01,CS3L006,1,Layered architecture,intro,3,computer_networks
+M-CS3L006-02,CS3L006,2,Data link and MAC,core,4,computer_networks
+M-CS3L006-03,CS3L006,3,IP addressing and routing,core,5,computer_networks
+M-CS3L006-04,CS3L006,4,"TCP, UDP and congestion control",core,5,computer_networks
+M-CS3L006-05,CS3L006,5,Application protocols,advanced,3,computer_networks
+M-CS3P002-01,CS3P002,1,Lab: schema design and SQL,core,3,databases
+M-CS3P002-02,CS3P002,2,"Lab: procedures, triggers and views",advanced,3,databases
+M-CS3P004-01,CS3P004,1,Lab: protocol simulation,core,3,computer_networks
+M-CS3P004-02,CS3P004,2,Lab: router and firewall configuration,advanced,3,computer_networks
+M-CS4L001-01,CS4L001,1,Lexical analysis,intro,4,compilers
+M-CS4L001-02,CS4L001,2,Top-down and bottom-up parsing,core,6,compilers
+M-CS4L001-03,CS4L001,3,Syntax-directed translation,core,4,compilers
+M-CS4L001-04,CS4L001,4,Code generation and optimisation,advanced,5,compilers
+M-CS4P001-01,CS4P001,1,Lab: scanner with flex,core,3,compilers
+M-CS4P001-02,CS4P001,2,Lab: parser with bison,core,3,compilers
+M-CS4D001-01,CS4D001,1,Problem definition and literature review,core,6,research_methods
+M-CS4D001-02,CS4D001,2,Design and initial results,core,8,research_methods
+M-CS4T001-01,CS4T001,1,Internship report,core,4,communication
+M-CS4T001-02,CS4T001,2,Training defence presentation,core,2,communication
+M-CS4D002-01,CS4D002,1,Implementation and experiments,core,10,research_methods
+M-CS4D002-02,CS4D002,2,Thesis writing and defence,core,8,research_methods
+M-CS6L019-01,CS6L019,1,Agents and problem formulation,intro,3,artificial_intelligence
+M-CS6L019-02,CS6L019,2,Uninformed and informed search,core,5,artificial_intelligence
+M-CS6L019-03,CS6L019,3,Constraint satisfaction and games,core,4,artificial_intelligence
+M-CS6L019-04,CS6L019,4,Logic and knowledge representation,core,5,artificial_intelligence
+M-CS6L019-05,CS6L019,5,Reasoning under uncertainty,advanced,4,artificial_intelligence
+M-ID6L004-01,ID6L004,1,ML problem types and maths review,intro,4,machine_learning
+M-ID6L004-02,ID6L004,2,Data exploration and preprocessing,intro,4,machine_learning
+M-ID6L004-03,ID6L004,3,Regression,core,5,machine_learning
+M-ID6L004-04,ID6L004,4,"Classification: kNN, trees, SVM",core,6,machine_learning
+M-ID6L004-05,ID6L004,5,Clustering and dimensionality reduction,core,5,machine_learning
+M-ID6L004-06,ID6L004,6,Model evaluation and selection,advanced,4,machine_learning
+M-ID6L005-01,ID6L005,1,Neural networks and backpropagation,core,6,machine_learning
+M-ID6L005-02,ID6L005,2,Ensembles and boosting,core,4,machine_learning
+M-ID6L005-03,ID6L005,3,Probabilistic models,advanced,5,machine_learning
+M-ID6L005-04,ID6L005,4,Sequence models,advanced,5,machine_learning
+M-CS4L012-01,CS4L012,1,Data exploration and visualisation,intro,4,data_analysis
+M-CS4L012-02,CS4L012,2,"Cleaning, integration and PCA",core,4,data_analysis
+M-CS4L012-03,CS4L012,3,Classification and regression,core,5,data_analysis
+M-CS4L012-04,CS4L012,4,Clustering,core,4,data_analysis
+M-CS4L012-05,CS4L012,5,Association rule mining,advanced,4,data_analysis
+M-CS6L027-01,CS6L027,1,Text processing and language models,intro,4,artificial_intelligence
+M-CS6L027-02,CS6L027,2,Tagging and parsing,core,5,artificial_intelligence
+M-CS6L027-03,CS6L027,3,Embeddings and neural NLP,advanced,6,artificial_intelligence
+M-CS6L011-01,CS6L011,1,HTML5 and CSS,intro,4,web_development
+M-CS6L011-02,CS6L011,2,JavaScript and JSON,core,5,web_development
+M-CS6L011-03,CS6L011,3,Server-side programming,core,5,web_development
+M-CS6L011-04,CS6L011,4,Back-end data and web security,advanced,4,web_development
+M-CS6L034-01,CS6L034,1,Software processes: plan-driven and agile,intro,3,software_engineering
+M-CS6L034-02,CS6L034,2,Requirements engineering,core,4,software_engineering
+M-CS6L034-03,CS6L034,3,Design and architecture,core,4,software_engineering
+M-CS6L034-04,CS6L034,4,Testing and deployment,core,4,software_engineering
+M-CS6L034-05,CS6L034,5,Configuration and project management,advanced,3,software_engineering
+M-CS6L025-01,CS6L025,1,"Classes, inheritance and polymorphism",intro,4,software_engineering
+M-CS6L025-02,CS6L025,2,UML modelling,core,4,software_engineering
+M-CS6L025-03,CS6L025,3,Design patterns,advanced,5,software_engineering
+M-CS6L023-01,CS6L023,1,Test design and coverage,core,4,software_engineering
+M-CS6L023-02,CS6L023,2,Unit and integration testing,core,4,software_engineering
+M-CS6L023-03,CS6L023,3,Program verification,advanced,5,software_engineering
+M-CS6L007-01,CS6L007,1,Amortised analysis,core,4,algorithms
+M-CS6L007-02,CS6L007,2,Randomized algorithms,core,5,algorithms
+M-CS6L007-03,CS6L007,3,Advanced graph algorithms,advanced,6,algorithms
+M-CS6L007-04,CS6L007,4,Approximation algorithms,advanced,5,algorithms
+M-CS6L015-01,CS6L015,1,Algebraic structures and lattices,core,4,discrete_math
+M-CS6L015-02,CS6L015,2,Logic: soundness and completeness,core,5,discrete_math
+M-CS6L015-03,CS6L015,3,Chomsky hierarchy and computability,advanced,5,discrete_math
+M-CS6L008-01,CS6L008,1,Cloud service and deployment models,intro,3,cloud_computing
+M-CS6L008-02,CS6L008,2,Virtualisation,core,5,cloud_computing
+M-CS6L008-03,CS6L008,3,Cloud storage and programming models,core,5,cloud_computing
+M-CS6L008-04,CS6L008,4,Cloud security,advanced,4,cloud_computing
+M-CS6L005-01,CS6L005,1,Classical ciphers and perfect secrecy,intro,3,security
+M-CS6L005-02,CS6L005,2,Number theory and finite fields,core,5,security
+M-CS6L005-03,CS6L005,3,Symmetric ciphers,core,4,security
+M-CS6L005-04,CS6L005,4,Public-key cryptography and signatures,advanced,5,security
+M-CS6L002-01,CS6L002,1,Protocol security,core,4,security
+M-CS6L002-02,CS6L002,2,Buffer overflows and fuzzing,core,5,security
+M-CS6L002-03,CS6L002,3,Authentication: SSL and Kerberos,core,4,security
+M-CS6L002-04,CS6L002,4,Web attacks and intrusion detection,advanced,4,security
+M-CS6L031-01,CS6L031,1,Strategic form games,intro,4,economics
+M-CS6L031-02,CS6L031,2,Nash equilibrium and its computation,core,5,economics
+M-CS6L031-03,CS6L031,3,Bayesian games,core,4,economics
+M-CS6L031-04,CS6L031,4,Mechanism design and social choice,advanced,5,economics
+M-CS6L017-01,CS6L017,1,Transactions and concurrency control,core,5,databases
+M-CS6L017-02,CS6L017,2,Query optimisation and tuning,core,5,databases
+M-CS6L017-03,CS6L017,3,OLAP and data warehousing,advanced,4,databases
+M-CS6L024-01,CS6L024,1,"Sensing, actuation and protocols",intro,4,embedded_iot
+M-CS6L024-02,CS6L024,2,Arduino with sensors,core,5,embedded_iot
+M-CS6L024-03,CS6L024,3,Raspberry Pi and Python IoT,core,5,embedded_iot
+M-CS4L010-01,CS4L010,1,Raster algorithms and clipping,intro,4,linear_algebra
+M-CS4L010-02,CS4L010,2,2D/3D transformations and projection,core,5,linear_algebra
+M-CS4L010-03,CS4L010,3,Curves and surfaces,advanced,5,linear_algebra
+M-CS2L003-01,CS2L003,1,Boolean algebra and simplification,intro,4,digital_logic
+M-CS2L003-02,CS2L003,2,Combinational building blocks,core,4,digital_logic
+M-CS2L003-03,CS2L003,3,Sequential circuits,core,5,digital_logic
+M-CS3L004-01,CS3L004,1,8051 architecture and instructions,intro,4,embedded_iot
+M-CS3L004-02,CS3L004,2,"Interrupts, timers and I/O",core,5,embedded_iot
+M-CS3L004-03,CS3L004,3,Interfacing and embedded design,advanced,5,embedded_iot
+M-CS3L007-01,CS3L007,1,Data communication and OSI,intro,4,computer_networks
+M-CS3L007-02,CS3L007,2,Error detection and data link,core,4,computer_networks
+M-CS3L007-03,CS3L007,3,"Routing, transport and security basics",core,5,computer_networks
+M-CE2L012-01,CE2L012,1,Infrastructure sectors in India,intro,3,public_policy
+M-CE2L012-02,CE2L012,2,PPPs and case studies,core,4,public_policy
+M-CE2L012-03,CE2L012,3,"Economic appraisal: NPV, BCR, IRR",core,4,public_policy
+M-CE2L012-04,CE2L012,4,Risk in infrastructure planning,advanced,3,public_policy
+M-CE3L031-01,CE3L031,1,Pollutants and their effects,intro,3,environment_policy
+M-CE3L031-02,CE3L031,2,"Water, air and noise pollution control",core,4,environment_policy
+M-CE3L031-03,CE3L031,3,Waste management,core,3,environment_policy
+M-CE3L031-04,CE3L031,4,"EIA, standards and environmental law",advanced,4,environment_policy

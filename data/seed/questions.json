@@ -1,0 +1,2195 @@
+[
+ {
+  "id": "Q-calculus-01",
+  "skill_id": "calculus",
+  "difficulty": 1,
+  "topic": "derivatives",
+  "stem": "What is the derivative of x^3?",
+  "options": [
+   "3x^2",
+   "x^2",
+   "3x",
+   "x^4/4"
+  ],
+  "answer": "3x^2",
+  "explanation": "Power rule: d/dx x^n = n x^(n-1).",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-calculus-02",
+  "skill_id": "calculus",
+  "difficulty": 2,
+  "topic": "multivariable",
+  "stem": "For f(x, y) = x^2 y, what is the partial derivative with respect to x?",
+  "options": [
+   "2xy",
+   "x^2",
+   "2x",
+   "x^2 y"
+  ],
+  "answer": "2xy",
+  "explanation": "Treat y as a constant: d/dx (x^2 y) = 2xy.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-calculus-03",
+  "skill_id": "calculus",
+  "difficulty": 2,
+  "topic": "optimisation",
+  "stem": "At a critical point of f(x), f''(x) > 0. What does the point represent?",
+  "options": [
+   "A local minimum",
+   "A local maximum",
+   "A point of inflexion",
+   "Nothing can be concluded"
+  ],
+  "answer": "A local minimum",
+  "explanation": "Positive second derivative means the function is concave up: a local minimum.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-calculus-04",
+  "skill_id": "calculus",
+  "difficulty": 3,
+  "topic": "ode",
+  "stem": "What is the general solution of y' = 2y?",
+  "options": [
+   "y = C e^(2x)",
+   "y = 2x + C",
+   "y = C x^2",
+   "y = e^x + C"
+  ],
+  "answer": "y = C e^(2x)",
+  "explanation": "Separable: dy/y = 2 dx gives ln y = 2x + c.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-linear_algebra-01",
+  "skill_id": "linear_algebra",
+  "difficulty": 1,
+  "topic": "matrices",
+  "stem": "How many entries does a 3 x 4 matrix have?",
+  "options": [
+   "12",
+   "7",
+   "16",
+   "9"
+  ],
+  "answer": "12",
+  "explanation": "Rows times columns: 3 x 4 = 12.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-linear_algebra-02",
+  "skill_id": "linear_algebra",
+  "difficulty": 1,
+  "topic": "products",
+  "stem": "The product AB is defined when:",
+  "options": [
+   "the number of columns of A equals the number of rows of B",
+   "A and B have the same shape",
+   "both are square",
+   "the number of rows of A equals the number of rows of B"
+  ],
+  "answer": "the number of columns of A equals the number of rows of B",
+  "explanation": "Inner dimensions must match.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-linear_algebra-03",
+  "skill_id": "linear_algebra",
+  "difficulty": 2,
+  "topic": "independence",
+  "stem": "Vectors v1, v2, v3 are linearly independent if:",
+  "options": [
+   "c1 v1 + c2 v2 + c3 v3 = 0 only when all c are 0",
+   "they all have unit length",
+   "they are pairwise orthogonal only",
+   "one of them is the zero vector"
+  ],
+  "answer": "c1 v1 + c2 v2 + c3 v3 = 0 only when all c are 0",
+  "explanation": "Independence means only the trivial combination gives zero.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-linear_algebra-04",
+  "skill_id": "linear_algebra",
+  "difficulty": 2,
+  "topic": "rank",
+  "stem": "A 5 x 5 matrix has rank 3. What is the dimension of its null space?",
+  "options": [
+   "2",
+   "3",
+   "5",
+   "0"
+  ],
+  "answer": "2",
+  "explanation": "Rank-nullity: nullity = n - rank = 5 - 3.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-linear_algebra-05",
+  "skill_id": "linear_algebra",
+  "difficulty": 3,
+  "topic": "eigen",
+  "stem": "If A v = 4 v for a non-zero vector v, then:",
+  "options": [
+   "4 is an eigenvalue of A and v an eigenvector",
+   "A is the identity matrix",
+   "det(A) = 4",
+   "v is in the null space of A"
+  ],
+  "answer": "4 is an eigenvalue of A and v an eigenvector",
+  "explanation": "That is the definition of an eigenpair.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-linear_algebra-06",
+  "skill_id": "linear_algebra",
+  "difficulty": 3,
+  "topic": "determinants",
+  "stem": "If det(A) = 0 for a square matrix A, then:",
+  "options": [
+   "A is not invertible",
+   "A is orthogonal",
+   "all eigenvalues are non-zero",
+   "A x = b always has a unique solution"
+  ],
+  "answer": "A is not invertible",
+  "explanation": "A zero determinant means A is singular.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-probability_statistics-01",
+  "skill_id": "probability_statistics",
+  "difficulty": 1,
+  "topic": "descriptive",
+  "stem": "What is the median of 3, 9, 4, 7, 1?",
+  "options": [
+   "4",
+   "7",
+   "4.8",
+   "9"
+  ],
+  "answer": "4",
+  "explanation": "Sorted: 1, 3, 4, 7, 9; the middle value is 4.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-probability_statistics-02",
+  "skill_id": "probability_statistics",
+  "difficulty": 1,
+  "topic": "probability",
+  "stem": "A fair die is rolled once. What is the probability of an even number?",
+  "options": [
+   "1/2",
+   "1/3",
+   "1/6",
+   "2/3"
+  ],
+  "answer": "1/2",
+  "explanation": "Three of six outcomes are even.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-probability_statistics-03",
+  "skill_id": "probability_statistics",
+  "difficulty": 2,
+  "topic": "independence",
+  "stem": "A and B are independent with P(A) = 0.5 and P(B) = 0.4. What is P(A and B)?",
+  "options": [
+   "0.2",
+   "0.9",
+   "0.1",
+   "0.45"
+  ],
+  "answer": "0.2",
+  "explanation": "For independent events P(A and B) = P(A) P(B).",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-probability_statistics-04",
+  "skill_id": "probability_statistics",
+  "difficulty": 2,
+  "topic": "bayes",
+  "stem": "A test is 99% sensitive for a disease with 1% prevalence. Why can a positive result still be unlikely to mean disease?",
+  "options": [
+   "False positives from the large healthy group can outnumber true positives",
+   "Sensitivity measures specificity",
+   "Prevalence does not affect the posterior",
+   "The test is biased toward negatives"
+  ],
+  "answer": "False positives from the large healthy group can outnumber true positives",
+  "explanation": "Bayes' theorem: the base rate matters.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-probability_statistics-05",
+  "skill_id": "probability_statistics",
+  "difficulty": 3,
+  "topic": "inference",
+  "stem": "A 95% confidence interval for a mean means:",
+  "options": [
+   "the procedure captures the true mean in about 95% of repeated samples",
+   "95% of data points lie in the interval",
+   "the true mean is in this interval with probability 0.95 under any model",
+   "the sample mean is 95% accurate"
+  ],
+  "answer": "the procedure captures the true mean in about 95% of repeated samples",
+  "explanation": "It is a statement about the long-run behaviour of the procedure.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-probability_statistics-06",
+  "skill_id": "probability_statistics",
+  "difficulty": 3,
+  "topic": "distributions",
+  "stem": "For X ~ Binomial(n = 10, p = 0.3), what is E[X]?",
+  "options": [
+   "3",
+   "0.3",
+   "7",
+   "2.1"
+  ],
+  "answer": "3",
+  "explanation": "E[X] = n p = 10 x 0.3.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-discrete_math-01",
+  "skill_id": "discrete_math",
+  "difficulty": 1,
+  "topic": "sets",
+  "stem": "How many subsets does a set of 4 elements have?",
+  "options": [
+   "16",
+   "8",
+   "4",
+   "24"
+  ],
+  "answer": "16",
+  "explanation": "A set of n elements has 2^n subsets.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-discrete_math-02",
+  "skill_id": "discrete_math",
+  "difficulty": 1,
+  "topic": "logic",
+  "stem": "Which is logically equivalent to 'if P then Q'?",
+  "options": [
+   "if not Q then not P",
+   "if Q then P",
+   "if not P then not Q",
+   "P and Q"
+  ],
+  "answer": "if not Q then not P",
+  "explanation": "The contrapositive is equivalent to the implication.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-discrete_math-03",
+  "skill_id": "discrete_math",
+  "difficulty": 2,
+  "topic": "relations",
+  "stem": "A relation that is reflexive, symmetric and transitive is called:",
+  "options": [
+   "an equivalence relation",
+   "a partial order",
+   "a function",
+   "a total order"
+  ],
+  "answer": "an equivalence relation",
+  "explanation": "Those three properties define an equivalence relation.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-discrete_math-04",
+  "skill_id": "discrete_math",
+  "difficulty": 2,
+  "topic": "counting",
+  "stem": "How many ways can 3 people be chosen from 7 if order does not matter?",
+  "options": [
+   "35",
+   "210",
+   "21",
+   "343"
+  ],
+  "answer": "35",
+  "explanation": "C(7,3) = 35.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-discrete_math-05",
+  "skill_id": "discrete_math",
+  "difficulty": 3,
+  "topic": "induction",
+  "stem": "In a proof by strong induction you assume the claim for:",
+  "options": [
+   "all values up to k to prove it for k+1",
+   "only k to prove k+1",
+   "k+1 to prove k",
+   "the base case only"
+  ],
+  "answer": "all values up to k to prove it for k+1",
+  "explanation": "Strong induction uses all earlier cases.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-discrete_math-06",
+  "skill_id": "discrete_math",
+  "difficulty": 3,
+  "topic": "graphs",
+  "stem": "A connected graph with n vertices and n-1 edges is:",
+  "options": [
+   "a tree",
+   "always a cycle",
+   "complete",
+   "bipartite with a cycle"
+  ],
+  "answer": "a tree",
+  "explanation": "A connected acyclic graph on n vertices has exactly n-1 edges.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-programming-01",
+  "skill_id": "programming",
+  "difficulty": 1,
+  "topic": "variables",
+  "stem": "After x = 5; y = x; x = 7, what is y (value semantics)?",
+  "options": [
+   "5",
+   "7",
+   "12",
+   "undefined"
+  ],
+  "answer": "5",
+  "explanation": "y received a copy of the value 5.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-programming-02",
+  "skill_id": "programming",
+  "difficulty": 1,
+  "topic": "loops",
+  "stem": "How many times does 'for i in range(2, 10, 3)' run in Python?",
+  "options": [
+   "3",
+   "8",
+   "2",
+   "4"
+  ],
+  "answer": "3",
+  "explanation": "i takes the values 2, 5, 8.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-programming-03",
+  "skill_id": "programming",
+  "difficulty": 2,
+  "topic": "recursion",
+  "stem": "What does every correct recursive function need?",
+  "options": [
+   "A base case that stops the recursion",
+   "A global variable",
+   "A loop inside it",
+   "At least two parameters"
+  ],
+  "answer": "A base case that stops the recursion",
+  "explanation": "Without a base case recursion never terminates.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-programming-04",
+  "skill_id": "programming",
+  "difficulty": 2,
+  "topic": "debugging",
+  "stem": "A loop that should visit every element of an array of size n skips the last one. What is the first thing to check?",
+  "options": [
+   "The loop bound (e.g. < n-1 instead of < n)",
+   "The variable names",
+   "The compiler version",
+   "The array element type"
+  ],
+  "answer": "The loop bound (e.g. < n-1 instead of < n)",
+  "explanation": "Off-by-one errors in bounds are the usual cause.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-programming-05",
+  "skill_id": "programming",
+  "difficulty": 3,
+  "topic": "pointers",
+  "stem": "In C, what does int *p = &a; *p = 10; do?",
+  "options": [
+   "Sets a to 10",
+   "Sets p to 10",
+   "Prints 10",
+   "Allocates new memory"
+  ],
+  "answer": "Sets a to 10",
+  "explanation": "*p dereferences the address of a.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-programming-06",
+  "skill_id": "programming",
+  "difficulty": 3,
+  "topic": "testing",
+  "stem": "What does a unit test check?",
+  "options": [
+   "One small unit of behaviour in isolation",
+   "The whole deployed system",
+   "Only performance",
+   "Only the user interface"
+  ],
+  "answer": "One small unit of behaviour in isolation",
+  "explanation": "Unit tests isolate a function or class.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-data_structures-01",
+  "skill_id": "data_structures",
+  "difficulty": 1,
+  "topic": "stacks",
+  "stem": "Which data structure is Last-In-First-Out?",
+  "options": [
+   "Stack",
+   "Queue",
+   "Heap",
+   "Hash table"
+  ],
+  "answer": "Stack",
+  "explanation": "A stack pops the most recently pushed item.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-data_structures-02",
+  "skill_id": "data_structures",
+  "difficulty": 1,
+  "topic": "queues",
+  "stem": "Which structure suits first-come, first-served processing?",
+  "options": [
+   "Queue",
+   "Stack",
+   "Binary search tree",
+   "Set"
+  ],
+  "answer": "Queue",
+  "explanation": "A queue is FIFO.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-data_structures-03",
+  "skill_id": "data_structures",
+  "difficulty": 2,
+  "topic": "hashing",
+  "stem": "What is the average-case lookup cost in a well-sized hash table?",
+  "options": [
+   "O(1)",
+   "O(log n)",
+   "O(n)",
+   "O(n log n)"
+  ],
+  "answer": "O(1)",
+  "explanation": "With a good hash function and load factor, lookups are constant on average.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-data_structures-04",
+  "skill_id": "data_structures",
+  "difficulty": 2,
+  "topic": "bst",
+  "stem": "An in-order traversal of a binary search tree outputs keys in:",
+  "options": [
+   "sorted order",
+   "reverse insertion order",
+   "level order",
+   "random order"
+  ],
+  "answer": "sorted order",
+  "explanation": "Left subtree, root, right subtree gives ascending order.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-data_structures-05",
+  "skill_id": "data_structures",
+  "difficulty": 3,
+  "topic": "balanced",
+  "stem": "Why use an AVL or red-black tree instead of a plain BST?",
+  "options": [
+   "They keep height O(log n) so operations stay O(log n)",
+   "They use less memory",
+   "They allow duplicate keys only",
+   "They avoid comparisons"
+  ],
+  "answer": "They keep height O(log n) so operations stay O(log n)",
+  "explanation": "Balancing prevents degeneration into a list.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-data_structures-06",
+  "skill_id": "data_structures",
+  "difficulty": 3,
+  "topic": "heaps",
+  "stem": "What is the cost of extracting the minimum from a binary min-heap of n elements?",
+  "options": [
+   "O(log n)",
+   "O(1)",
+   "O(n)",
+   "O(n log n)"
+  ],
+  "answer": "O(log n)",
+  "explanation": "Remove root, move last to root, sift down: O(log n).",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-algorithms-01",
+  "skill_id": "algorithms",
+  "difficulty": 1,
+  "topic": "complexity",
+  "stem": "Binary search on a sorted array of n items takes:",
+  "options": [
+   "O(log n)",
+   "O(n)",
+   "O(1)",
+   "O(n^2)"
+  ],
+  "answer": "O(log n)",
+  "explanation": "The search space halves each step.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-algorithms-02",
+  "skill_id": "algorithms",
+  "difficulty": 1,
+  "topic": "sorting",
+  "stem": "Which algorithm has worst-case O(n log n) time?",
+  "options": [
+   "Merge sort",
+   "Quick sort",
+   "Insertion sort",
+   "Bubble sort"
+  ],
+  "answer": "Merge sort",
+  "explanation": "Merge sort always splits evenly; quicksort can degrade to O(n^2).",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-algorithms-03",
+  "skill_id": "algorithms",
+  "difficulty": 2,
+  "topic": "recurrences",
+  "stem": "What does T(n) = 2T(n/2) + n solve to?",
+  "options": [
+   "O(n log n)",
+   "O(n)",
+   "O(n^2)",
+   "O(log n)"
+  ],
+  "answer": "O(n log n)",
+  "explanation": "Master theorem case 2.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-algorithms-04",
+  "skill_id": "algorithms",
+  "difficulty": 2,
+  "topic": "graphs",
+  "stem": "Which algorithm finds shortest paths from one source with non-negative edge weights?",
+  "options": [
+   "Dijkstra's algorithm",
+   "Depth-first search",
+   "Kruskal's algorithm",
+   "Topological sort"
+  ],
+  "answer": "Dijkstra's algorithm",
+  "explanation": "Dijkstra requires non-negative weights.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-algorithms-05",
+  "skill_id": "algorithms",
+  "difficulty": 2,
+  "topic": "greedy",
+  "stem": "Kruskal's and Prim's algorithms compute:",
+  "options": [
+   "a minimum spanning tree",
+   "all-pairs shortest paths",
+   "a maximum flow",
+   "a topological order"
+  ],
+  "answer": "a minimum spanning tree",
+  "explanation": "Both are greedy MST algorithms.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-algorithms-06",
+  "skill_id": "algorithms",
+  "difficulty": 3,
+  "topic": "dp",
+  "stem": "Dynamic programming applies when a problem has:",
+  "options": [
+   "optimal substructure and overlapping subproblems",
+   "only independent subproblems",
+   "no recursive structure",
+   "a greedy choice property only"
+  ],
+  "answer": "optimal substructure and overlapping subproblems",
+  "explanation": "Overlapping subproblems make memoisation pay off.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-algorithms-07",
+  "skill_id": "algorithms",
+  "difficulty": 3,
+  "topic": "np",
+  "stem": "If an NP-complete problem had a polynomial-time algorithm, then:",
+  "options": [
+   "P = NP",
+   "P is not NP",
+   "only that problem becomes easy",
+   "all problems become decidable"
+  ],
+  "answer": "P = NP",
+  "explanation": "Every NP problem reduces to an NP-complete one.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-digital_logic-01",
+  "skill_id": "digital_logic",
+  "difficulty": 1,
+  "topic": "gates",
+  "stem": "Which gate outputs 1 only when both inputs are 1?",
+  "options": [
+   "AND",
+   "OR",
+   "XOR",
+   "NOR"
+  ],
+  "answer": "AND",
+  "explanation": "That is the AND truth table.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-digital_logic-02",
+  "skill_id": "digital_logic",
+  "difficulty": 2,
+  "topic": "boolean",
+  "stem": "By De Morgan's law, NOT(A AND B) equals:",
+  "options": [
+   "(NOT A) OR (NOT B)",
+   "(NOT A) AND (NOT B)",
+   "A OR B",
+   "A XOR B"
+  ],
+  "answer": "(NOT A) OR (NOT B)",
+  "explanation": "De Morgan: complement of a product is the sum of complements.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-digital_logic-03",
+  "skill_id": "digital_logic",
+  "difficulty": 2,
+  "topic": "numbers",
+  "stem": "What is binary 1011 in decimal?",
+  "options": [
+   "11",
+   "13",
+   "10",
+   "9"
+  ],
+  "answer": "11",
+  "explanation": "8 + 0 + 2 + 1 = 11.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-digital_logic-04",
+  "skill_id": "digital_logic",
+  "difficulty": 3,
+  "topic": "sequential",
+  "stem": "What distinguishes a sequential circuit from a combinational one?",
+  "options": [
+   "Its output depends on stored state as well as current inputs",
+   "It has no clock",
+   "It uses only NAND gates",
+   "It cannot contain flip-flops"
+  ],
+  "answer": "Its output depends on stored state as well as current inputs",
+  "explanation": "Sequential circuits have memory.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-computer_architecture-01",
+  "skill_id": "computer_architecture",
+  "difficulty": 1,
+  "topic": "basics",
+  "stem": "What does the program counter hold?",
+  "options": [
+   "The address of the next instruction",
+   "The result of the last ALU operation",
+   "The stack size",
+   "The number of cache misses"
+  ],
+  "answer": "The address of the next instruction",
+  "explanation": "The PC points to the next instruction to fetch.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-computer_architecture-02",
+  "skill_id": "computer_architecture",
+  "difficulty": 2,
+  "topic": "cache",
+  "stem": "Caches improve performance mainly by exploiting:",
+  "options": [
+   "temporal and spatial locality",
+   "larger disks",
+   "more registers in the ALU",
+   "network bandwidth"
+  ],
+  "answer": "temporal and spatial locality",
+  "explanation": "Programs reuse recent and nearby data.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-computer_architecture-03",
+  "skill_id": "computer_architecture",
+  "difficulty": 2,
+  "topic": "pipelining",
+  "stem": "A data hazard in a pipeline occurs when:",
+  "options": [
+   "an instruction needs a result that an earlier instruction has not produced yet",
+   "two instructions use different registers",
+   "the cache is full",
+   "the clock is too slow"
+  ],
+  "answer": "an instruction needs a result that an earlier instruction has not produced yet",
+  "explanation": "Read-after-write dependence causes data hazards.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-computer_architecture-04",
+  "skill_id": "computer_architecture",
+  "difficulty": 3,
+  "topic": "amdahl",
+  "stem": "If 40% of a program is sped up 2x, the overall speedup is about:",
+  "options": [
+   "1.25x",
+   "2x",
+   "1.4x",
+   "1.8x"
+  ],
+  "answer": "1.25x",
+  "explanation": "Amdahl: 1 / (0.6 + 0.4/2) = 1.25.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-operating_systems-01",
+  "skill_id": "operating_systems",
+  "difficulty": 1,
+  "topic": "process",
+  "stem": "A process is best described as:",
+  "options": [
+   "a program in execution with its own state",
+   "a file on disk",
+   "a CPU core",
+   "a user account"
+  ],
+  "answer": "a program in execution with its own state",
+  "explanation": "A process includes code, data, registers and resources.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-operating_systems-02",
+  "skill_id": "operating_systems",
+  "difficulty": 2,
+  "topic": "scheduling",
+  "stem": "Which scheduling policy can starve long jobs?",
+  "options": [
+   "Shortest job first",
+   "Round robin",
+   "First-come first-served",
+   "Fair-share with ageing"
+  ],
+  "answer": "Shortest job first",
+  "explanation": "SJF keeps preferring short jobs.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-operating_systems-03",
+  "skill_id": "operating_systems",
+  "difficulty": 2,
+  "topic": "sync",
+  "stem": "A mutex is used to:",
+  "options": [
+   "ensure only one thread enters a critical section at a time",
+   "speed up disk I/O",
+   "allocate virtual memory",
+   "schedule processes by priority"
+  ],
+  "answer": "ensure only one thread enters a critical section at a time",
+  "explanation": "Mutual exclusion protects shared data.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-operating_systems-04",
+  "skill_id": "operating_systems",
+  "difficulty": 3,
+  "topic": "deadlock",
+  "stem": "Which is NOT one of the four necessary conditions for deadlock?",
+  "options": [
+   "Pre-emption of resources",
+   "Mutual exclusion",
+   "Hold and wait",
+   "Circular wait"
+  ],
+  "answer": "Pre-emption of resources",
+  "explanation": "The fourth condition is no pre-emption.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-operating_systems-05",
+  "skill_id": "operating_systems",
+  "difficulty": 3,
+  "topic": "memory",
+  "stem": "What does a page fault mean?",
+  "options": [
+   "The referenced page is not in physical memory",
+   "The program has a syntax error",
+   "The disk is full",
+   "The CPU overheated"
+  ],
+  "answer": "The referenced page is not in physical memory",
+  "explanation": "The OS must load the page from backing store.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-databases-01",
+  "skill_id": "databases",
+  "difficulty": 1,
+  "topic": "keys",
+  "stem": "A primary key:",
+  "options": [
+   "uniquely identifies each row",
+   "must be a string",
+   "links to another table",
+   "is always auto-incremented"
+  ],
+  "answer": "uniquely identifies each row",
+  "explanation": "Uniqueness and non-null define a primary key.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-databases-02",
+  "skill_id": "databases",
+  "difficulty": 1,
+  "topic": "sql",
+  "stem": "Which SQL clause filters rows before grouping?",
+  "options": [
+   "WHERE",
+   "HAVING",
+   "ORDER BY",
+   "GROUP BY"
+  ],
+  "answer": "WHERE",
+  "explanation": "WHERE filters rows; HAVING filters groups.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-databases-03",
+  "skill_id": "databases",
+  "difficulty": 2,
+  "topic": "joins",
+  "stem": "An INNER JOIN returns:",
+  "options": [
+   "rows with matching keys in both tables",
+   "all rows of the left table",
+   "all rows of both tables",
+   "only unmatched rows"
+  ],
+  "answer": "rows with matching keys in both tables",
+  "explanation": "Only matching pairs are kept.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-databases-04",
+  "skill_id": "databases",
+  "difficulty": 2,
+  "topic": "normalisation",
+  "stem": "Why normalise a schema?",
+  "options": [
+   "To reduce redundancy and update anomalies",
+   "To make every query faster",
+   "To remove all foreign keys",
+   "To store data as text"
+  ],
+  "answer": "To reduce redundancy and update anomalies",
+  "explanation": "Normal forms remove redundancy-driven anomalies.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-databases-05",
+  "skill_id": "databases",
+  "difficulty": 3,
+  "topic": "transactions",
+  "stem": "The 'I' in ACID requires that:",
+  "options": [
+   "concurrent transactions do not see each other's partial effects",
+   "data is stored on two disks",
+   "indexes are always used",
+   "each transaction is idempotent"
+  ],
+  "answer": "concurrent transactions do not see each other's partial effects",
+  "explanation": "Isolation.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-databases-06",
+  "skill_id": "databases",
+  "difficulty": 3,
+  "topic": "indexing",
+  "stem": "A B+-tree index is especially good for:",
+  "options": [
+   "range queries on the indexed key",
+   "full-table scans",
+   "random writes without reads",
+   "storing images"
+  ],
+  "answer": "range queries on the indexed key",
+  "explanation": "Leaves are linked in key order.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-computer_networks-01",
+  "skill_id": "computer_networks",
+  "difficulty": 1,
+  "topic": "layers",
+  "stem": "Which layer is responsible for end-to-end delivery between processes?",
+  "options": [
+   "Transport",
+   "Network",
+   "Data link",
+   "Physical"
+  ],
+  "answer": "Transport",
+  "explanation": "TCP/UDP operate at the transport layer.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-computer_networks-02",
+  "skill_id": "computer_networks",
+  "difficulty": 2,
+  "topic": "tcp",
+  "stem": "TCP differs from UDP because TCP:",
+  "options": [
+   "provides reliable, ordered delivery with congestion control",
+   "has no headers",
+   "is only used for video",
+   "is connectionless"
+  ],
+  "answer": "provides reliable, ordered delivery with congestion control",
+  "explanation": "UDP is connectionless and unreliable.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-computer_networks-03",
+  "skill_id": "computer_networks",
+  "difficulty": 2,
+  "topic": "dns",
+  "stem": "DNS primarily maps:",
+  "options": [
+   "domain names to IP addresses",
+   "MAC addresses to IP addresses",
+   "ports to processes",
+   "IP addresses to routes"
+  ],
+  "answer": "domain names to IP addresses",
+  "explanation": "ARP maps IP to MAC; DNS maps names to IPs.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-computer_networks-04",
+  "skill_id": "computer_networks",
+  "difficulty": 3,
+  "topic": "subnet",
+  "stem": "How many usable host addresses are in a /26 IPv4 subnet?",
+  "options": [
+   "62",
+   "64",
+   "30",
+   "126"
+  ],
+  "answer": "62",
+  "explanation": "2^(32-26) - 2 = 62.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-theory_of_computation-01",
+  "skill_id": "theory_of_computation",
+  "difficulty": 1,
+  "topic": "dfa",
+  "stem": "A DFA accepts a string if, after reading it, the machine is in:",
+  "options": [
+   "an accepting state",
+   "the start state",
+   "any state",
+   "a dead state"
+  ],
+  "answer": "an accepting state",
+  "explanation": "Acceptance depends on the final state.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-theory_of_computation-02",
+  "skill_id": "theory_of_computation",
+  "difficulty": 2,
+  "topic": "regular",
+  "stem": "Which language is NOT regular?",
+  "options": [
+   "{a^n b^n : n >= 0}",
+   "strings with an even number of a's",
+   "strings ending in 'ab'",
+   "all strings over {a, b}"
+  ],
+  "answer": "{a^n b^n : n >= 0}",
+  "explanation": "a^n b^n needs unbounded counting (pumping lemma).",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-theory_of_computation-03",
+  "skill_id": "theory_of_computation",
+  "difficulty": 2,
+  "topic": "cfg",
+  "stem": "Pushdown automata recognise exactly the:",
+  "options": [
+   "context-free languages",
+   "regular languages",
+   "recursive languages",
+   "finite languages"
+  ],
+  "answer": "context-free languages",
+  "explanation": "PDA = CFG in expressive power.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-theory_of_computation-04",
+  "skill_id": "theory_of_computation",
+  "difficulty": 3,
+  "topic": "decidability",
+  "stem": "The halting problem is:",
+  "options": [
+   "undecidable",
+   "decidable in polynomial time",
+   "regular",
+   "context-free"
+  ],
+  "answer": "undecidable",
+  "explanation": "Turing's diagonal argument.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-compilers-01",
+  "skill_id": "compilers",
+  "difficulty": 1,
+  "topic": "phases",
+  "stem": "Which compiler phase converts characters into tokens?",
+  "options": [
+   "Lexical analysis",
+   "Parsing",
+   "Code generation",
+   "Optimisation"
+  ],
+  "answer": "Lexical analysis",
+  "explanation": "The lexer produces the token stream.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-compilers-02",
+  "skill_id": "compilers",
+  "difficulty": 2,
+  "topic": "parsing",
+  "stem": "An LL(1) parser requires the grammar to be free of:",
+  "options": [
+   "left recursion and FIRST/FIRST conflicts",
+   "all terminals",
+   "epsilon productions in every case",
+   "right recursion"
+  ],
+  "answer": "left recursion and FIRST/FIRST conflicts",
+  "explanation": "Top-down predictive parsing cannot handle left recursion.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-compilers-03",
+  "skill_id": "compilers",
+  "difficulty": 3,
+  "topic": "optimisation",
+  "stem": "Constant folding means:",
+  "options": [
+   "evaluating constant expressions at compile time",
+   "storing constants in registers",
+   "removing all variables",
+   "unrolling loops"
+  ],
+  "answer": "evaluating constant expressions at compile time",
+  "explanation": "e.g. 2*3 becomes 6 at compile time.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-software_engineering-01",
+  "skill_id": "software_engineering",
+  "difficulty": 1,
+  "topic": "vcs",
+  "stem": "Why use version control such as git?",
+  "options": [
+   "To track changes and collaborate safely",
+   "To compile code faster",
+   "To encrypt source code",
+   "To replace testing"
+  ],
+  "answer": "To track changes and collaborate safely",
+  "explanation": "History, branching and merging.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-software_engineering-02",
+  "skill_id": "software_engineering",
+  "difficulty": 2,
+  "topic": "agile",
+  "stem": "In agile development, work is usually delivered:",
+  "options": [
+   "in short iterations with frequent feedback",
+   "only at the end of the project",
+   "without any planning",
+   "after all documentation is final"
+  ],
+  "answer": "in short iterations with frequent feedback",
+  "explanation": "Iterative, incremental delivery.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-software_engineering-03",
+  "skill_id": "software_engineering",
+  "difficulty": 2,
+  "topic": "requirements",
+  "stem": "A good requirement should be:",
+  "options": [
+   "testable and unambiguous",
+   "as long as possible",
+   "written only in code",
+   "decided after release"
+  ],
+  "answer": "testable and unambiguous",
+  "explanation": "If it cannot be tested you cannot tell when it is met.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-software_engineering-04",
+  "skill_id": "software_engineering",
+  "difficulty": 3,
+  "topic": "design",
+  "stem": "High cohesion and low coupling make a design:",
+  "options": [
+   "easier to change and test",
+   "faster at runtime always",
+   "harder to understand",
+   "dependent on one module"
+  ],
+  "answer": "easier to change and test",
+  "explanation": "Modules do one thing and depend little on each other.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-web_development-01",
+  "skill_id": "web_development",
+  "difficulty": 1,
+  "topic": "html",
+  "stem": "Semantic HTML elements such as <nav> and <main> mainly help:",
+  "options": [
+   "convey structure to browsers and assistive technology",
+   "make pages load faster",
+   "store user passwords",
+   "replace CSS"
+  ],
+  "answer": "convey structure to browsers and assistive technology",
+  "explanation": "Semantics aid accessibility and SEO.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-web_development-02",
+  "skill_id": "web_development",
+  "difficulty": 2,
+  "topic": "http",
+  "stem": "Which HTTP status code means 'Not Found'?",
+  "options": [
+   "404",
+   "200",
+   "500",
+   "301"
+  ],
+  "answer": "404",
+  "explanation": "404 Not Found.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-web_development-03",
+  "skill_id": "web_development",
+  "difficulty": 2,
+  "topic": "client_server",
+  "stem": "Where must input validation be enforced for security?",
+  "options": [
+   "On the server",
+   "Only in the browser",
+   "Only in CSS",
+   "Nowhere if HTTPS is used"
+  ],
+  "answer": "On the server",
+  "explanation": "Client checks can be bypassed.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-web_development-04",
+  "skill_id": "web_development",
+  "difficulty": 3,
+  "topic": "security",
+  "stem": "Using parameterised queries protects a web app against:",
+  "options": [
+   "SQL injection",
+   "cross-site request forgery",
+   "DNS spoofing",
+   "denial of service"
+  ],
+  "answer": "SQL injection",
+  "explanation": "Parameters are never interpreted as SQL.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-machine_learning-01",
+  "skill_id": "machine_learning",
+  "difficulty": 1,
+  "topic": "basics",
+  "stem": "Predicting house prices from features is a:",
+  "options": [
+   "regression problem",
+   "clustering problem",
+   "classification problem",
+   "reinforcement learning problem"
+  ],
+  "answer": "regression problem",
+  "explanation": "The target is a continuous value.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-machine_learning-02",
+  "skill_id": "machine_learning",
+  "difficulty": 1,
+  "topic": "splits",
+  "stem": "Why keep a separate test set?",
+  "options": [
+   "To estimate performance on unseen data",
+   "To train faster",
+   "To increase training data",
+   "To tune the learning rate on it"
+  ],
+  "answer": "To estimate performance on unseen data",
+  "explanation": "The test set must not influence training.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-machine_learning-03",
+  "skill_id": "machine_learning",
+  "difficulty": 2,
+  "topic": "overfitting",
+  "stem": "Training accuracy is 99% but validation accuracy is 70%. This suggests:",
+  "options": [
+   "overfitting",
+   "underfitting",
+   "a perfect model",
+   "too little model capacity"
+  ],
+  "answer": "overfitting",
+  "explanation": "Large train/validation gap means overfitting.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-machine_learning-04",
+  "skill_id": "machine_learning",
+  "difficulty": 2,
+  "topic": "regularisation",
+  "stem": "L2 regularisation in linear regression:",
+  "options": [
+   "penalises large weights to reduce overfitting",
+   "removes features with zero variance",
+   "increases the learning rate",
+   "guarantees zero training error"
+  ],
+  "answer": "penalises large weights to reduce overfitting",
+  "explanation": "Ridge adds lambda * ||w||^2.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-machine_learning-05",
+  "skill_id": "machine_learning",
+  "difficulty": 3,
+  "topic": "metrics",
+  "stem": "For a rare-positive classification task, accuracy is misleading because:",
+  "options": [
+   "predicting all negatives already scores high",
+   "accuracy cannot be computed",
+   "precision is always 1",
+   "it ignores the training set"
+  ],
+  "answer": "predicting all negatives already scores high",
+  "explanation": "Use precision/recall or AUC instead.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-machine_learning-06",
+  "skill_id": "machine_learning",
+  "difficulty": 3,
+  "topic": "leakage",
+  "stem": "Fitting a scaler on the full data set before the train/test split causes:",
+  "options": [
+   "data leakage and optimistic test results",
+   "underfitting",
+   "a smaller feature space",
+   "class imbalance"
+  ],
+  "answer": "data leakage and optimistic test results",
+  "explanation": "Test statistics leak into training.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-data_analysis-01",
+  "skill_id": "data_analysis",
+  "difficulty": 1,
+  "topic": "cleaning",
+  "stem": "What is a sensible first step with a new data set?",
+  "options": [
+   "Inspect its structure, types and missing values",
+   "Train the most complex model",
+   "Delete all outliers",
+   "Publish the results"
+  ],
+  "answer": "Inspect its structure, types and missing values",
+  "explanation": "Understand the data before modelling.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-data_analysis-02",
+  "skill_id": "data_analysis",
+  "difficulty": 2,
+  "topic": "visualisation",
+  "stem": "Which plot best shows the distribution of one numeric variable?",
+  "options": [
+   "Histogram",
+   "Pie chart",
+   "Scatter plot of two categories",
+   "Line chart of IDs"
+  ],
+  "answer": "Histogram",
+  "explanation": "Histograms show distribution shape.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-data_analysis-03",
+  "skill_id": "data_analysis",
+  "difficulty": 2,
+  "topic": "pca",
+  "stem": "Principal component analysis finds directions that:",
+  "options": [
+   "capture maximum variance",
+   "maximise classification accuracy",
+   "remove all correlation from labels",
+   "cluster the data"
+  ],
+  "answer": "capture maximum variance",
+  "explanation": "PCA is variance-maximising projection.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-data_analysis-04",
+  "skill_id": "data_analysis",
+  "difficulty": 3,
+  "topic": "association",
+  "stem": "In association rules, the support of an itemset is:",
+  "options": [
+   "the fraction of transactions containing it",
+   "the confidence of the rule",
+   "the number of items in it",
+   "its lift over random"
+  ],
+  "answer": "the fraction of transactions containing it",
+  "explanation": "Support = frequency of the itemset.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-artificial_intelligence-01",
+  "skill_id": "artificial_intelligence",
+  "difficulty": 1,
+  "topic": "agents",
+  "stem": "In AI search, a state represents:",
+  "options": [
+   "one possible configuration of the problem",
+   "a line of code",
+   "a database row",
+   "a CPU register"
+  ],
+  "answer": "one possible configuration of the problem",
+  "explanation": "Search explores states via actions.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-artificial_intelligence-02",
+  "skill_id": "artificial_intelligence",
+  "difficulty": 2,
+  "topic": "heuristics",
+  "stem": "A* is guaranteed optimal (tree search) when the heuristic is:",
+  "options": [
+   "admissible (never overestimates)",
+   "always zero",
+   "larger than the true cost",
+   "random"
+  ],
+  "answer": "admissible (never overestimates)",
+  "explanation": "Admissibility ensures optimality.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-artificial_intelligence-03",
+  "skill_id": "artificial_intelligence",
+  "difficulty": 2,
+  "topic": "games",
+  "stem": "Minimax with alpha-beta pruning:",
+  "options": [
+   "returns the same value as minimax with fewer nodes explored",
+   "changes the optimal move",
+   "only works for single-player games",
+   "needs a learned model"
+  ],
+  "answer": "returns the same value as minimax with fewer nodes explored",
+  "explanation": "Pruning skips branches that cannot affect the decision.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-artificial_intelligence-04",
+  "skill_id": "artificial_intelligence",
+  "difficulty": 3,
+  "topic": "csp",
+  "stem": "Arc consistency in a CSP:",
+  "options": [
+   "removes values that have no consistent partner in a neighbouring variable",
+   "assigns all variables at once",
+   "guarantees a solution exists",
+   "only applies to unary constraints"
+  ],
+  "answer": "removes values that have no consistent partner in a neighbouring variable",
+  "explanation": "AC-3 prunes domains.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-security-01",
+  "skill_id": "security",
+  "difficulty": 1,
+  "topic": "cia",
+  "stem": "The 'CIA' triad in security stands for:",
+  "options": [
+   "Confidentiality, Integrity, Availability",
+   "Cipher, Integrity, Authentication",
+   "Control, Inspection, Audit",
+   "Confidentiality, Identity, Access"
+  ],
+  "answer": "Confidentiality, Integrity, Availability",
+  "explanation": "The three core goals.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-security-02",
+  "skill_id": "security",
+  "difficulty": 2,
+  "topic": "crypto",
+  "stem": "In public-key encryption, a message encrypted with Alice's public key can be decrypted with:",
+  "options": [
+   "Alice's private key",
+   "Alice's public key",
+   "anyone's private key",
+   "a shared password only"
+  ],
+  "answer": "Alice's private key",
+  "explanation": "Only the private key holder can decrypt.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-security-03",
+  "skill_id": "security",
+  "difficulty": 2,
+  "topic": "hashing",
+  "stem": "Passwords should be stored as:",
+  "options": [
+   "salted slow hashes (e.g. bcrypt)",
+   "plain text",
+   "reversible encryption with a fixed key",
+   "unsalted MD5"
+  ],
+  "answer": "salted slow hashes (e.g. bcrypt)",
+  "explanation": "Salts and slow hashes resist cracking.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-security-04",
+  "skill_id": "security",
+  "difficulty": 3,
+  "topic": "overflow",
+  "stem": "A stack buffer overflow can let an attacker:",
+  "options": [
+   "overwrite the return address and hijack control flow",
+   "only crash the network",
+   "read encrypted disks",
+   "change the CPU clock"
+  ],
+  "answer": "overwrite the return address and hijack control flow",
+  "explanation": "Classic control-flow hijack.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-cloud_computing-01",
+  "skill_id": "cloud_computing",
+  "difficulty": 1,
+  "topic": "models",
+  "stem": "Renting virtual machines from a provider is an example of:",
+  "options": [
+   "Infrastructure as a Service",
+   "Software as a Service",
+   "Function as a Service only",
+   "On-premise hosting"
+  ],
+  "answer": "Infrastructure as a Service",
+  "explanation": "IaaS provides compute, storage and network.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-cloud_computing-02",
+  "skill_id": "cloud_computing",
+  "difficulty": 2,
+  "topic": "virtualisation",
+  "stem": "A hypervisor:",
+  "options": [
+   "runs multiple virtual machines on one physical host",
+   "is a database index",
+   "replaces the network",
+   "compiles code"
+  ],
+  "answer": "runs multiple virtual machines on one physical host",
+  "explanation": "It multiplexes hardware between VMs.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-cloud_computing-03",
+  "skill_id": "cloud_computing",
+  "difficulty": 3,
+  "topic": "cap",
+  "stem": "The CAP theorem says that during a network partition a distributed store must choose between:",
+  "options": [
+   "consistency and availability",
+   "speed and memory",
+   "security and cost",
+   "latency and throughput"
+  ],
+  "answer": "consistency and availability",
+  "explanation": "Partition tolerance forces the trade-off.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-embedded_iot-01",
+  "skill_id": "embedded_iot",
+  "difficulty": 1,
+  "topic": "sensors",
+  "stem": "An actuator in an IoT system:",
+  "options": [
+   "acts on the physical world, e.g. a motor or relay",
+   "only measures temperature",
+   "stores data in the cloud",
+   "is a network protocol"
+  ],
+  "answer": "acts on the physical world, e.g. a motor or relay",
+  "explanation": "Sensors sense; actuators act.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-embedded_iot-02",
+  "skill_id": "embedded_iot",
+  "difficulty": 2,
+  "topic": "protocols",
+  "stem": "MQTT is commonly used in IoT because it is:",
+  "options": [
+   "a lightweight publish-subscribe protocol",
+   "a video codec",
+   "a database",
+   "a CPU architecture"
+  ],
+  "answer": "a lightweight publish-subscribe protocol",
+  "explanation": "Low overhead pub/sub over TCP.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-embedded_iot-03",
+  "skill_id": "embedded_iot",
+  "difficulty": 3,
+  "topic": "interrupts",
+  "stem": "Why use interrupts instead of polling on a microcontroller?",
+  "options": [
+   "The CPU reacts to events without constantly checking",
+   "Interrupts use no power at all",
+   "Polling is impossible",
+   "Interrupts remove the need for timers"
+  ],
+  "answer": "The CPU reacts to events without constantly checking",
+  "explanation": "Event-driven response saves cycles.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-research_methods-01",
+  "skill_id": "research_methods",
+  "difficulty": 1,
+  "topic": "question",
+  "stem": "A good research question is:",
+  "options": [
+   "specific, answerable and significant",
+   "as broad as possible",
+   "already answered",
+   "chosen after writing the conclusion"
+  ],
+  "answer": "specific, answerable and significant",
+  "explanation": "Focused questions guide method choice.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-research_methods-02",
+  "skill_id": "research_methods",
+  "difficulty": 2,
+  "topic": "reading",
+  "stem": "Keshav's three-pass method for reading a paper starts with:",
+  "options": [
+   "a quick skim of title, abstract, headings and conclusions",
+   "re-deriving every proof",
+   "reading the references first",
+   "running the code"
+  ],
+  "answer": "a quick skim of title, abstract, headings and conclusions",
+  "explanation": "The first pass is a 5-10 minute bird's-eye view.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-research_methods-03",
+  "skill_id": "research_methods",
+  "difficulty": 2,
+  "topic": "reproducibility",
+  "stem": "Reporting results over several random seeds helps:",
+  "options": [
+   "show the result is robust rather than lucky",
+   "increase the p-value",
+   "hide variance",
+   "reduce compute cost"
+  ],
+  "answer": "show the result is robust rather than lucky",
+  "explanation": "Variance across seeds reveals robustness.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-research_methods-04",
+  "skill_id": "research_methods",
+  "difficulty": 3,
+  "topic": "validity",
+  "stem": "A baseline in an experiment is important because:",
+  "options": [
+   "it shows whether the proposed method actually improves on a reasonable alternative",
+   "it guarantees publication",
+   "it replaces statistical tests",
+   "it is always the best method"
+  ],
+  "answer": "it shows whether the proposed method actually improves on a reasonable alternative",
+  "explanation": "Without a baseline improvements cannot be judged.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-technical_writing-01",
+  "skill_id": "technical_writing",
+  "difficulty": 1,
+  "topic": "clarity",
+  "stem": "Which sentence is clearer for a technical report?",
+  "options": [
+   "The cache reduced median latency from 80 ms to 20 ms.",
+   "The cache made things a lot faster in general.",
+   "Latency was kind of improved by caching stuff.",
+   "Things were better after the change."
+  ],
+  "answer": "The cache reduced median latency from 80 ms to 20 ms.",
+  "explanation": "Specific, quantified statements are clearer.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-technical_writing-02",
+  "skill_id": "technical_writing",
+  "difficulty": 2,
+  "topic": "structure",
+  "stem": "An abstract should:",
+  "options": [
+   "summarise the problem, method, key result and significance",
+   "list every reference",
+   "contain the full proofs",
+   "introduce new results not in the paper"
+  ],
+  "answer": "summarise the problem, method, key result and significance",
+  "explanation": "It is a compact summary of the whole paper.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-technical_writing-03",
+  "skill_id": "technical_writing",
+  "difficulty": 3,
+  "topic": "sop",
+  "stem": "A strong statement of purpose for graduate study mainly shows:",
+  "options": [
+   "evidence of research preparation and fit with the programme",
+   "a list of all grades",
+   "personal hobbies only",
+   "generic praise of the university"
+  ],
+  "answer": "evidence of research preparation and fit with the programme",
+  "explanation": "Committees look for preparation and fit.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-communication-01",
+  "skill_id": "communication",
+  "difficulty": 1,
+  "topic": "audience",
+  "stem": "Before preparing a presentation you should first identify:",
+  "options": [
+   "the audience and what they need",
+   "the font",
+   "the length of each slide title",
+   "the number of animations"
+  ],
+  "answer": "the audience and what they need",
+  "explanation": "Audience shapes everything else.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-communication-02",
+  "skill_id": "communication",
+  "difficulty": 2,
+  "topic": "interview",
+  "stem": "The STAR method for behavioural interview answers stands for:",
+  "options": [
+   "Situation, Task, Action, Result",
+   "Skill, Talent, Ability, Role",
+   "Start, Think, Answer, Repeat",
+   "Strengths, Targets, Achievements, Reviews"
+  ],
+  "answer": "Situation, Task, Action, Result",
+  "explanation": "A structure for concise stories.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-communication-03",
+  "skill_id": "communication",
+  "difficulty": 2,
+  "topic": "feedback",
+  "stem": "A useful response to critical feedback is to:",
+  "options": [
+   "clarify the concern and consider the evidence",
+   "dismiss it immediately",
+   "change the subject",
+   "agree without understanding"
+  ],
+  "answer": "clarify the concern and consider the evidence",
+  "explanation": "Engage with the substance.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-communication-04",
+  "skill_id": "communication",
+  "difficulty": 3,
+  "topic": "uncertainty",
+  "stem": "How should you present results that are uncertain?",
+  "options": [
+   "State the assumptions and limits next to the conclusions",
+   "Remove caveats to sound confident",
+   "Avoid describing the evidence",
+   "Present only the best case"
+  ],
+  "answer": "State the assumptions and limits next to the conclusions",
+  "explanation": "Honest limits build credibility.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-economics-01",
+  "skill_id": "economics",
+  "difficulty": 1,
+  "topic": "demand",
+  "stem": "Other things equal, when the price of a normal good rises, quantity demanded:",
+  "options": [
+   "falls",
+   "rises",
+   "stays the same",
+   "becomes zero"
+  ],
+  "answer": "falls",
+  "explanation": "Law of demand.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-economics-02",
+  "skill_id": "economics",
+  "difficulty": 2,
+  "topic": "inflation",
+  "stem": "Which body sets India's policy repo rate?",
+  "options": [
+   "The Reserve Bank of India's Monetary Policy Committee",
+   "The Finance Commission",
+   "SEBI",
+   "NITI Aayog"
+  ],
+  "answer": "The Reserve Bank of India's Monetary Policy Committee",
+  "explanation": "The MPC of the RBI sets the repo rate.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-economics-03",
+  "skill_id": "economics",
+  "difficulty": 2,
+  "topic": "gdp",
+  "stem": "GDP measures:",
+  "options": [
+   "the market value of final goods and services produced in a country in a period",
+   "the total money supply",
+   "government revenue only",
+   "exports minus imports only"
+  ],
+  "answer": "the market value of final goods and services produced in a country in a period",
+  "explanation": "Final goods only, to avoid double counting.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-economics-04",
+  "skill_id": "economics",
+  "difficulty": 3,
+  "topic": "game_theory",
+  "stem": "In the prisoner's dilemma, the Nash equilibrium is:",
+  "options": [
+   "both players defect",
+   "both cooperate",
+   "one cooperates and one defects",
+   "there is none"
+  ],
+  "answer": "both players defect",
+  "explanation": "Defection is a dominant strategy for each.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-public_policy-01",
+  "skill_id": "public_policy",
+  "difficulty": 1,
+  "topic": "constitution",
+  "stem": "Fundamental Rights in the Indian Constitution are mainly in:",
+  "options": [
+   "Part III",
+   "Part IV",
+   "Part IX",
+   "Schedule 7"
+  ],
+  "answer": "Part III",
+  "explanation": "Part III (Articles 12-35).",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-public_policy-02",
+  "skill_id": "public_policy",
+  "difficulty": 2,
+  "topic": "dpsp",
+  "stem": "Directive Principles of State Policy (Part IV) are:",
+  "options": [
+   "not enforceable by courts but fundamental to governance",
+   "enforceable like Fundamental Rights",
+   "only for state governments",
+   "repealed in 1976"
+  ],
+  "answer": "not enforceable by courts but fundamental to governance",
+  "explanation": "Article 37.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-public_policy-03",
+  "skill_id": "public_policy",
+  "difficulty": 2,
+  "topic": "policy_cycle",
+  "stem": "A typical policy cycle runs:",
+  "options": [
+   "agenda setting, formulation, adoption, implementation, evaluation",
+   "evaluation, adoption, agenda setting",
+   "implementation before formulation",
+   "only elections and budgets"
+  ],
+  "answer": "agenda setting, formulation, adoption, implementation, evaluation",
+  "explanation": "The standard stages model.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-public_policy-04",
+  "skill_id": "public_policy",
+  "difficulty": 3,
+  "topic": "federalism",
+  "stem": "Subjects on which both Parliament and state legislatures can make laws are in the:",
+  "options": [
+   "Concurrent List",
+   "Union List",
+   "State List",
+   "Residuary List"
+  ],
+  "answer": "Concurrent List",
+  "explanation": "Seventh Schedule, List III.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-entrepreneurship-01",
+  "skill_id": "entrepreneurship",
+  "difficulty": 1,
+  "topic": "problem",
+  "stem": "Customer discovery interviews are mainly used to:",
+  "options": [
+   "test whether the problem matters to real users",
+   "sell the finished product",
+   "design the logo",
+   "raise venture funding"
+  ],
+  "answer": "test whether the problem matters to real users",
+  "explanation": "Validate the problem before building.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-entrepreneurship-02",
+  "skill_id": "entrepreneurship",
+  "difficulty": 2,
+  "topic": "mvp",
+  "stem": "A minimum viable product is:",
+  "options": [
+   "the smallest thing that tests a key assumption with users",
+   "a complete product with all features",
+   "a business plan document",
+   "a patent filing"
+  ],
+  "answer": "the smallest thing that tests a key assumption with users",
+  "explanation": "Learn with minimum effort.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-entrepreneurship-03",
+  "skill_id": "entrepreneurship",
+  "difficulty": 2,
+  "topic": "metrics",
+  "stem": "Which metric best indicates early product-market fit for a subscription app?",
+  "options": [
+   "Retention of users over time",
+   "Number of social media followers",
+   "Office size",
+   "Lines of code"
+  ],
+  "answer": "Retention of users over time",
+  "explanation": "Retained users show real value.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-entrepreneurship-04",
+  "skill_id": "entrepreneurship",
+  "difficulty": 3,
+  "topic": "unit_economics",
+  "stem": "If customer acquisition cost exceeds customer lifetime value, the business:",
+  "options": [
+   "loses money on each customer it acquires",
+   "is guaranteed to grow profitably",
+   "has product-market fit",
+   "should acquire customers faster"
+  ],
+  "answer": "loses money on each customer it acquires",
+  "explanation": "LTV must exceed CAC.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-environment_policy-01",
+  "skill_id": "environment_policy",
+  "difficulty": 1,
+  "topic": "pollution",
+  "stem": "Which gas is the main contributor to the enhanced greenhouse effect from human activity?",
+  "options": [
+   "Carbon dioxide",
+   "Oxygen",
+   "Nitrogen",
+   "Argon"
+  ],
+  "answer": "Carbon dioxide",
+  "explanation": "CO2 from fossil fuels.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-environment_policy-02",
+  "skill_id": "environment_policy",
+  "difficulty": 2,
+  "topic": "eia",
+  "stem": "An environmental impact assessment is done:",
+  "options": [
+   "before a project is approved, to predict and mitigate its effects",
+   "only after construction",
+   "only for factories abroad",
+   "instead of public consultation"
+  ],
+  "answer": "before a project is approved, to predict and mitigate its effects",
+  "explanation": "EIA is a pre-approval tool.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ },
+ {
+  "id": "Q-environment_policy-03",
+  "skill_id": "environment_policy",
+  "difficulty": 3,
+  "topic": "law",
+  "stem": "The 'polluter pays' principle means:",
+  "options": [
+   "those who cause pollution bear the cost of managing it",
+   "the state pays for all pollution",
+   "polluters are paid to stop",
+   "only consumers pay"
+  ],
+  "answer": "those who cause pollution bear the cost of managing it",
+  "explanation": "Internalising the externality.",
+  "rubric": null,
+  "source": "Team-authored for this knowledge base (CC BY 4.0)"
+ }
+]

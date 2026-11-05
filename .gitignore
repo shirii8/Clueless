@@ -1,0 +1,11 @@
+.env
+.next/
+node_modules/
+__pycache__/
+.pytest_cache/
+.venv/
+*.py[cod]
+coverage.xml
+htmlcov/
+*.db
+api/eval.db

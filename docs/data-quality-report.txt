@@ -1,0 +1,18 @@
+Data quality report
+- courses: 61 (core 25, elective 18, first_year 9, lateral 5, project 4); verification: inferred 23, partial 3, verified 35
+- prerequisites: 30 rows in AND-of-OR groups; no cycles
+- skills: 29; course-skill links: 84; skill prerequisites: 26
+- modules: 213; questions: 129 (every skill has >= 3); exercises/projects/mock assessments: 43; total practice items: 172
+- open resources: 69 (MIT OpenCourseWare 30, NPTEL 30, Harvard CS50 2, NCERT 2, MIT CSAIL 1, Open Data Structures 1, University of Wisconsin 1, sqlitetutorial.net 1, ACM SIGCOMM CCR 1); link-checked on 2026-11-05
+- rules: 10 (assumed 3, inferred 1, verified 6); goals: 8
+- students: 72 synthetic profiles (17 personas); evidence rows: 340
+- note: CS3P001: source inconsistency documented - Syllabus header lists 2 credits; the semester V total (24/26) implies 3 credits per lab. Using the syllabus value.
+- note: CS3P003: source inconsistency documented - Syllabus header lists 2 credits; the semester V total implies 3. Using the syllabus value.
+- note: CS3P002: source inconsistency documented - Syllabus header lists 2 credits; the semester VI total (20/21) implies 3. Using the syllabus value.
+- note: CS3P004: source inconsistency documented - Syllabus header lists 2 credits; the semester VI total implies 3. Using the syllabus value.
+- note: CS4D001: credits 4 differ from L+T+P/2 for 0-0-6 (institute value kept)
+- note: CS4D002: credits 6 differ from L+T+P/2 for 0-0-9 (institute value kept)
+- note: CS6L008: source inconsistency documented - Elective slots: 1 in semester VI, 3 in VII, 2 in VIII (pp.17-18). Which electives run in a given semester is announced in that semester's su
+- note: CS6L002: source inconsistency documented - Elective slots: 1 in semester VI, 3 in VII, 2 in VIII (pp.17-18). Which electives run in a given semester is announced in that semester's su
+- note: skills with no institute course in the KB (covered by open resources only): entrepreneurship
+- note: skills without a hands-on exercise (questions only): calculus, digital_logic
