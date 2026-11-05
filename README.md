@@ -14,6 +14,15 @@ Clueless takes a student's goal (a software role, data science, MS/PhD, GATE, UP
 
 The model only parses goals, explains changes, answers open questions, generates validated questions and grades rubric items. Everything works without a model key through deterministic fallbacks.
 
+## Live demo
+
+| | URL |
+|---|---|
+| Web app | https://clueless-web-rho.vercel.app |
+| API (OpenAPI docs at `/docs`) | https://clueless-api.vercel.app |
+
+The hosted demo runs on Vercel with a temporary SQLite database that is re-seeded with the 72 sample students whenever the server cold-starts, so edits made there are not permanent. It runs without a model key. For the full stack (Postgres, Adminer, persistence), run it locally with Docker as described below. To make the hosted API persistent, set `DATABASE_URL` on the `clueless-api` Vercel project to a Postgres URL (`postgresql+psycopg://...?sslmode=require`) and redeploy.
+
 ## Run it
 
 Requirements: Docker with Compose v2 (linux/amd64, no GPU). Images total well under 5 GB (Python slim, Node Alpine standalone, Postgres Alpine, Adminer).

@@ -9,3 +9,4 @@ coverage.xml
 htmlcov/
 *.db
 api/eval.db
+.vercel/

@@ -1,5 +1,7 @@
 from contextlib import asynccontextmanager
 import logging
+import os
+import threading
 from typing import Any, AsyncIterator, Literal
 
 from fastapi import Depends, FastAPI, HTTPException, Query
@@ -30,6 +32,21 @@ logger = logging.getLogger(__name__)
 EVIDENCE_KINDS = Literal["grade", "assessed", "mock_test", "quiz", "exercise", "project", "mock_interview", "self_declared"]
 
 
+_initialized = False
+_init_lock = threading.Lock()
+
+
+def ensure_initialized() -> None:
+    """Idempotent startup: also runs on the first request where a host skips ASGI lifespan events."""
+    global _initialized
+    if _initialized:
+        return
+    with _init_lock:
+        if not _initialized:
+            initialize_database()
+            _initialized = True
+
+
 def initialize_database() -> None:
     Base.metadata.create_all(bind=engine)
     with SessionLocal() as db:
@@ -42,19 +59,23 @@ def initialize_database() -> None:
 
 @asynccontextmanager
 async def lifespan(_app: FastAPI) -> AsyncIterator[None]:
-    initialize_database()
+    ensure_initialized()
     yield
 
 
 app = FastAPI(title="Clueless - personalised learning buddy (IIT Bhubaneswar)", version="1.0.0", lifespan=lifespan)
 @app.middleware("http")
 async def persist_model_bookkeeping(request, call_next):
+    if not _initialized:
+        from starlette.concurrency import run_in_threadpool
+
+        await run_in_threadpool(ensure_initialized)
     response = await call_next(request)
     flush_bookkeeping()
     return response
 
 
-app.add_middleware(CORSMiddleware, allow_origin_regex=r"^http://(localhost|127\.0\.0\.1)(:\d+)?$", allow_credentials=True,
+app.add_middleware(CORSMiddleware, allow_origin_regex=os.getenv("CORS_ORIGIN_REGEX", r"^http://(localhost|127\.0\.0\.1)(:\d+)?$"), allow_credentials=True,
                    allow_methods=["*"], allow_headers=["*"])
 
 

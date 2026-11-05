@@ -8,7 +8,11 @@ def seed_dir() -> Path:
     configured = os.getenv("SEED_DIR")
     if configured:
         return Path(configured)
-    return Path(__file__).resolve().parents[2] / "data" / "seed"
+    here = Path(__file__).resolve()
+    for candidate in (here.parents[2] / "data" / "seed", here.parents[1] / "data" / "seed"):
+        if candidate.exists():
+            return candidate
+    return here.parents[2] / "data" / "seed"
 
 
 @lru_cache(maxsize=4)
